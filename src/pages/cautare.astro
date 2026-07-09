@@ -33,7 +33,8 @@ const index = getSearchIndex();
 
     function cardHTML(p) {
       return `
-        <a class="product-card" href="${p.affiliate_url}" target="_blank" rel="sponsored nofollow noopener">
+        <a class="product-card" href="${p.affiliate_url}" target="_blank" rel="sponsored nofollow noopener"
+           data-product-id="${p.id}" data-brand="${p.brand ?? ''}" data-title="${p.title}" data-price="${p.price}">
           <div class="thumb"><img src="${p.image_url}" alt="${p.title}" loading="lazy" /></div>
           <div class="body">
             <span class="brand">${p.brand ?? ''}</span>
