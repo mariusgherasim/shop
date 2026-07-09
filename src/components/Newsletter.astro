@@ -8,10 +8,34 @@ const action = 'https://assets.mailerlite.com/jsonp/1999265/forms/19252562020322
     <h2>Nu rata ofertele</h2>
     <p>Ceasuri și accesorii selectate, cu reduceri, direct în inbox — fără spam.</p>
   </div>
-  <form action={action} method="post" target="_blank">
+  <form id="newsletter-form" action={action} method="post" target="_blank">
     <input type="email" name="fields[email]" placeholder="Adresa ta de email" required aria-label="Email" autocomplete="email" />
     <input type="hidden" name="ml-submit" value="1" />
     <input type="hidden" name="anticsrf" value="true" />
     <button type="submit">Abonează-te</button>
   </form>
 </section>
+
+<script>
+  const form = document.getElementById('newsletter-form');
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const button = form.querySelector('button');
+    const originalLabel = button.textContent;
+    button.disabled = true;
+    button.textContent = 'Se trimite...';
+
+    try {
+      await fetch(form.getAttribute('action'), {
+        method: 'POST',
+        body: new FormData(form),
+        mode: 'no-cors', // răspunsul e opac (nu-l putem citi), dar cererea chiar ajunge la MailerLite
+      });
+      form.outerHTML = '<p class="newsletter-success">Mulțumim! Ești abonat — verifică-ți inboxul.</p>';
+    } catch (err) {
+      button.disabled = false;
+      button.textContent = originalLabel;
+      alert('A apărut o eroare de rețea. Încearcă din nou.');
+    }
+  });
+</script>
