@@ -57,15 +57,15 @@
     "brand": "Festina",
     "title": "Ceas Festina DIVER F20532/2 Automatic",
     "category": ["ceasuri"],
-    "price": null,
+    "price": 1164.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
-    "draft": true,
+    "draft": false,
     "image_url": "https://cdn.watchshop.ro/images/products/img_202111121617/233614/full/ceas-festina-diver-f20532-2-automatic-579456.webp",
     "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/festina/diver-f20532-2-automatic/",
-    "affiliate_url": "",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=2e49eab4f&unique=OgJGsjdsBA1k",
     "specs": {
       "mecanism": "Automatic"
     }
