@@ -7,7 +7,14 @@ const {
   title = 'shop.gherasimmarius — Ceasuri și accesorii selectate',
   description = 'Selecții curatoriate de ceasuri și accesorii, cu oferte și reduceri de la comercianți verificați.',
   current = '',
+  ogImage = '/og-image.png',
 } = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImageURL = new URL(ogImage, Astro.site);
+
+// Google Analytics 4 — cont comun cu carti.gherasimmarius.com (aceeași proprietate/stream, intenționat).
+const GA_MEASUREMENT_ID = 'G-HS59YL4Y3D';
 ---
 <!doctype html>
 <html lang="ro">
@@ -17,16 +24,61 @@ const {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImageURL} />
+    <meta property="og:image:secure_url" content={ogImageURL} />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="shop.gherasimmarius" />
+    <meta property="og:locale" content="ro_RO" />
+    <meta name="twitter:card" content="summary_large_image" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}></script>
+    <script define:vars={{ GA_MEASUREMENT_ID }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', GA_MEASUREMENT_ID);
+    </script>
   </head>
   <body>
     <Header current={current} />
     <slot />
     <Footer />
+
+    <!--
+      Tracking click-uri afiliere — același eveniment `affiliate_click` folosit
+      și pe celelalte site-uri (carti, copywriting), ca să rămână consistent
+      în rapoartele GA4 (diferențiat automat prin hostname).
+    -->
+    <script>
+      document.addEventListener('click', (e) => {
+        const card = e.target.closest('.product-card');
+        if (!card || typeof gtag !== 'function') return;
+        gtag('event', 'affiliate_click', {
+          item_id: card.dataset.productId,
+          item_name: card.dataset.title,
+          item_brand: card.dataset.brand,
+          value: parseFloat(card.dataset.price) || undefined,
+          currency: 'RON',
+        });
+      });
+    </script>
   </body>
 </html>
