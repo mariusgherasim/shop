@@ -28,6 +28,10 @@ const specChips = Object.entries(specs).slice(0, 3);
   target="_blank"
   rel="sponsored nofollow noopener"
   aria-label={`${title} — vezi oferta, ${price} ${product.currency || 'RON'}`}
+  data-product-id={product.id}
+  data-brand={brand}
+  data-title={title}
+  data-price={price}
 >
   {discount_percent ? <span class="seal">-{discount_percent}%</span> : null}
   <div class="thumb">
