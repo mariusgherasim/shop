@@ -1,0 +1,73 @@
+[
+  {
+    "id": "8455",
+    "source_site": "ceasuri-shop.ro",
+    "brand": "Curren",
+    "title": "Ceas bărbătesc Curren 8455 albastru cu brățară argintie din oțel inoxidabil și cadran inspirat de busolă",
+    "category": ["ceasuri", "modele-noi"],
+    "price": 109.99,
+    "old_price": 149.99,
+    "offer_end": "2026-07-20T23:59:59",
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-curren-8455-albastru-cu-bratara-argintie-din-otel-inoxidabil-si-cadran-inspirat-de-busola-927486.png",
+    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-b%C4%83rb%C4%83tesc-curren-8455-albastru-cu-br%C4%83%C8%9Bar%C4%83-argintie-din-o%C8%9Bel-inoxidabil-%C8%99i-cadran-inspirat-de-busol%C4%83.html",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=ee2808fd9&unique=z7b9TBkjk5II",
+    "specs": {
+      "mecanism": "Quartz",
+      "afisaj": "Analogic",
+      "diametru_cadran_mm": 41,
+      "grosime_carcasa_mm": 11,
+      "latime_bratara_mm": 22,
+      "lungime_bratara_mm": 240,
+      "material_carcasa": "Aliaj metalic",
+      "material_bratara": "Oțel inoxidabil",
+      "greutate_g": 108,
+      "rezistenta_apa": "3 ATM",
+      "inchidere": "Cataramă pliabilă"
+    }
+  },
+  {
+    "id": "8455-1",
+    "source_site": "ceasuri-shop.ro",
+    "brand": "Curren",
+    "title": "Ceas bărbătesc CURREN 8455 Quartz 41 mm, brățară din oțel inoxidabil, 3 ATM, cadran negru cu accente albastre",
+    "category": ["ceasuri", "modele-noi"],
+    "price": 104.99,
+    "old_price": 139.99,
+    "offer_end": "2026-07-20T23:59:59",
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-curren-8455-quartz-41-mm-bratara-din-otel-inoxidabil-3-atm-cadran-negru-cu-accente-albastre-989385.png",
+    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-b%C4%83rb%C4%83tesc-curren-8455-quartz-41-mm-br%C4%83%C8%9Bar%C4%83-din-o%C8%9Bel-inoxidabil-3-atm-cadran-negru-cu-accente-albastre.html",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=ee2808fd9&unique=XdT07s71GL7M",
+    "specs": {
+      "mecanism": "Quartz",
+      "afisaj": "Analogic",
+      "diametru_cadran_mm": 41,
+      "rezistenta_apa": "3 ATM",
+      "material_bratara": "Oțel inoxidabil"
+    }
+  },
+  {
+    "id": "233614",
+    "source_site": "watchshop.ro",
+    "brand": "Festina",
+    "title": "Ceas Festina DIVER F20532/2 Automatic",
+    "category": ["ceasuri"],
+    "price": null,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": true,
+    "image_url": "https://cdn.watchshop.ro/images/products/img_202111121617/233614/full/ceas-festina-diver-f20532-2-automatic-579456.webp",
+    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/festina/diver-f20532-2-automatic/",
+    "affiliate_url": "",
+    "specs": {
+      "mecanism": "Automatic"
+    }
+  }
+]

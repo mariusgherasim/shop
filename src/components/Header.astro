@@ -1,0 +1,20 @@
+---
+const { current = '' } = Astro.props;
+const links = [
+  { href: '/', label: 'Acasă', key: 'home' },
+  { href: '/ceasuri', label: 'Ceasuri', key: 'ceasuri' },
+  { href: '/ochelari-de-soare', label: 'Ochelari de soare', key: 'ochelari' },
+  { href: '/oferte', label: 'Oferte', key: 'oferte' },
+  { href: '/cautare', label: 'Caută', key: 'cautare' },
+];
+---
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="wordmark">shop<span class="dot">.</span>gherasimmarius</a>
+    <nav class="main-nav" aria-label="Navigare principală">
+      {links.map((l) => (
+        <a href={l.href} aria-current={current === l.key ? 'page' : undefined}>{l.label}</a>
+      ))}
+    </nav>
+  </div>
+</header>

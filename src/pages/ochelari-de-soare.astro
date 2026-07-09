@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductCard from '../components/ProductCard.astro';
+import { getProductsByCategory } from '../lib/products.js';
+
+const products = getProductsByCategory('ochelari-de-soare');
+---
+<Layout current="ochelari" title="Ochelari de soare — shop.gherasimmarius">
+  <div class="container section">
+    <div class="section-head">
+      <h2>Ochelari de soare</h2>
+    </div>
+    {products.length > 0 ? (
+      <div class="product-grid">
+        {products.map((p) => <ProductCard product={p} />)}
+      </div>
+    ) : (
+      <div class="empty-state">
+        <h3>Colecția pornește în curând</h3>
+        <p>Adaugă produse cu categoria <code>"ochelari-de-soare"</code> în <code>src/data/products.json</code> ca să apară aici.</p>
+      </div>
+    )}
+  </div>
+</Layout>

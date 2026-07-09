@@ -1,0 +1,50 @@
+---
+const { product } = Astro.props;
+const {
+  title,
+  brand,
+  image_url,
+  price,
+  old_price,
+  discount_percent,
+  offerActive,
+  offer_end,
+  affiliate_url,
+  specs = {},
+} = product;
+
+function daysLeft(dateStr) {
+  if (!dateStr) return null;
+  const ms = new Date(dateStr).getTime() - Date.now();
+  return Math.max(1, Math.ceil(ms / 86400000));
+}
+const left = offerActive ? daysLeft(offer_end) : null;
+
+const specChips = Object.entries(specs).slice(0, 3);
+---
+<a
+  class="product-card"
+  href={affiliate_url}
+  target="_blank"
+  rel="sponsored nofollow noopener"
+  aria-label={`${title} — vezi oferta, ${price} ${product.currency || 'RON'}`}
+>
+  {discount_percent ? <span class="seal">-{discount_percent}%</span> : null}
+  <div class="thumb">
+    <img src={image_url} alt={title} loading="lazy" />
+  </div>
+  <div class="body">
+    {brand ? <span class="brand">{brand}</span> : null}
+    <h3>{title}</h3>
+    {specChips.length > 0 && (
+      <div class="spec-plate">
+        {specChips.map(([key, val]) => <span>{String(val)}</span>)}
+      </div>
+    )}
+    <div class="price-row">
+      {old_price ? <span class="old-price">{old_price.toFixed(2)} Lei</span> : null}
+      <span class="price-btn">{price.toFixed(2)} Lei</span>
+    </div>
+    {left ? <span class="offer-end">Oferta se încheie în {left} {left === 1 ? 'zi' : 'zile'}</span> : null}
+  </div>
+</a>

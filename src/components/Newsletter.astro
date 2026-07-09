@@ -1,0 +1,15 @@
+---
+// Înlocuiește `action` cu URL-ul real al formularului tău MailerLite
+// (Forms → Embedded forms → HTML → copiezi doar action-ul din <form>).
+const action = 'https://assets.mailerlite.com/jsonp/000000/forms/00000000000000000/subscribe';
+---
+<section class="newsletter">
+  <div>
+    <h2>Nu rata ofertele</h2>
+    <p>Ceasuri și accesorii selectate, cu reduceri, direct în inbox — fără spam.</p>
+  </div>
+  <form action={action} method="post" target="_blank">
+    <input type="email" name="fields[email]" placeholder="Adresa ta de email" required aria-label="Email" />
+    <button type="submit">Abonează-te</button>
+  </form>
+</section>

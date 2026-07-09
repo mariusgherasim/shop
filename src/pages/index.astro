@@ -1,0 +1,52 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductCard from '../components/ProductCard.astro';
+import Newsletter from '../components/Newsletter.astro';
+import { getAllProducts, getOffers } from '../lib/products.js';
+
+const all = getAllProducts();
+const offers = getOffers();
+const picks = all.slice(0, 3);
+---
+<Layout current="home">
+  <section class="hero">
+    <div class="hero-dial" aria-hidden="true"><span class="hero-sweep"></span></div>
+    <div class="container">
+      <p class="eyebrow">Ediția curentă</p>
+      <h1>Ceasuri și accesorii alese, nu doar listate.</h1>
+      <p class="lede">
+        Trecem prin zeci de modele ca să-ți arătăm doar pe cele care merită —
+        cu prețul corect, specificațiile clare și oferta la zi.
+      </p>
+    </div>
+  </section>
+
+  <div class="container">
+    {picks.length > 0 && (
+      <section class="section">
+        <div class="section-head">
+          <h2>Recomandările curente</h2>
+        </div>
+        <div class="product-grid">
+          {picks.map((p) => <ProductCard product={p} />)}
+        </div>
+      </section>
+    )}
+
+    {offers.length > 0 && (
+      <section class="section">
+        <div class="section-head">
+          <h2>Oferta săptămânii</h2>
+          <a href="/oferte" class="eyebrow">Toate ofertele →</a>
+        </div>
+        <div class="product-grid">
+          {offers.slice(0, 4).map((p) => <ProductCard product={p} />)}
+        </div>
+      </section>
+    )}
+
+    <section class="section">
+      <Newsletter />
+    </section>
+  </div>
+</Layout>
