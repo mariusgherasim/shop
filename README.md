@@ -60,7 +60,13 @@ Editează `src/data/products.json` — fiecare produs e un obiect cu acest schem
 
 ## MailerLite
 
-În `src/components/Newsletter.astro`, înlocuiește valoarea `action` cu URL-ul formularului tău embedded din MailerLite (Forms → Embedded → HTML → copiezi doar `action="..."` din `<form>`).
+Formularul din `src/components/Newsletter.astro` e deja conectat la contul tău
+(action URL extras din exportul HTML: Forms → Embedded forms → formular →
+Overview → Embed form to your website → tab HTML). Când submiți emailul,
+te duce către MailerLite într-un tab nou care confirmă abonarea.
+
+Dacă schimbi formularul sau grupul de abonați în MailerLite, va trebui să
+actualizezi valoarea `action` din `Newsletter.astro` cu noul URL.
 
 ## De completat înainte de lansare
 
