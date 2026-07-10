@@ -26,6 +26,15 @@ export function getProductsByCategory(category) {
   return getAllProducts().filter((p) => p.category.includes(category));
 }
 
+export function getProductsUnderPrice(maxPrice) {
+  return getAllProducts().filter((p) => p.price <= maxPrice);
+}
+
+/** Ofertele săptămânii — selecție manuală, marcată cu `featured: true` în products.json. */
+export function getFeatured() {
+  return getAllProducts().filter((p) => p.featured === true);
+}
+
 export function getOffers() {
   return getAllProducts().filter((p) => p.offerActive || p.discount_percent);
 }
