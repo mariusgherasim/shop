@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="glow" cx="82%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#1c2c4d"/>
+      <stop offset="100%" stop-color="#14213D"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- decorative watch dial, right side -->
+  <g opacity="0.9" transform="translate(870,315)">
+    <circle r="240" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <circle r="185" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
+    <circle r="150" fill="none" stroke="#B8863A" stroke-width="2"/>
+    <g stroke="rgba(243,238,227,0.35)" stroke-width="3" stroke-linecap="round">
+      <line x1="0" y1="-138" x2="0" y2="-150"/>
+      <line x1="0" y1="138" x2="0" y2="150"/>
+      <line x1="-138" y1="0" x2="-150" y2="0"/>
+      <line x1="138" y1="0" x2="150" y2="0"/>
+    </g>
+    <line x1="0" y1="0" x2="0" y2="-95" stroke="#F3EEE3" stroke-width="5" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="80" y2="30" stroke="#F3EEE3" stroke-width="5" stroke-linecap="round"/>
+    <circle r="8" fill="#B8863A"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="90" y="230" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="600" fill="#FFFFFF">shop<tspan fill="#B8863A">.</tspan>gherasimmarius</text>
+
+  <!-- eyebrow -->
+  <text x="92" y="150" font-family="'Courier New', monospace" font-size="22" letter-spacing="4" fill="#C79A3C">CEASURI &amp; ACCESORII SELECTATE</text>
+
+  <!-- tagline -->
+  <text x="92" y="300" font-family="Georgia, serif" font-size="30" fill="rgba(243,238,227,0.85)">Nu doar listate. Alese.</text>
+
+  <!-- price tag element -->
+  <g transform="translate(92,360)">
+    <rect width="300" height="70" rx="4" fill="#B8863A"/>
+    <text x="20" y="45" font-family="'Courier New', monospace" font-size="28" font-weight="700" fill="#14213D">OFERTE ACTIVE</text>
+  </g>
+</svg>
