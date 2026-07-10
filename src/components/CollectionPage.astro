@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductCard from './ProductCard.astro';
+
+const {
+  title,
+  current = '',
+  products = [],
+  emptyTitle = 'În curând',
+  emptyText = 'Adăugăm produse noi în această colecție în curând.',
+} = Astro.props;
+---
+<Layout current={current} title={`${title} — shop.gherasimmarius`}>
+  <div class="container section">
+    <div class="section-head">
+      <h2>{title}</h2>
+    </div>
+    {products.length > 0 ? (
+      <div class="product-grid">
+        {products.map((p) => <ProductCard product={p} />)}
+      </div>
+    ) : (
+      <div class="empty-state">
+        <h3>{emptyTitle}</h3>
+        <p set:html={emptyText} />
+      </div>
+    )}
+  </div>
+</Layout>
