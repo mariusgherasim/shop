@@ -31,8 +31,8 @@ const action = 'https://assets.mailerlite.com/jsonp/1999265/forms/19252562020322
         body: new FormData(form),
         mode: 'no-cors', // răspunsul e opac (nu-l putem citi), dar cererea chiar ajunge la MailerLite
       });
-      if (typeof gtag === 'function') {
-        gtag('event', 'newsletter_signup', { method: 'shop.gherasimmarius' });
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'newsletter_signup', { method: 'shop.gherasimmarius' });
       }
       form.outerHTML = '<p class="newsletter-success">Mulțumim! Ești abonat — verifică-ți inboxul.</p>';
     } catch (err) {
