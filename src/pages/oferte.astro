@@ -1,24 +1,13 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import ProductCard from '../components/ProductCard.astro';
+import CollectionPage from '../components/CollectionPage.astro';
 import { getOffers } from '../lib/products.js';
 
-const offers = getOffers();
+const products = getOffers();
 ---
-<Layout current="oferte" title="Oferte — shop.gherasimmarius">
-  <div class="container section">
-    <div class="section-head">
-      <h2>Oferte active</h2>
-    </div>
-    {offers.length > 0 ? (
-      <div class="product-grid">
-        {offers.map((p) => <ProductCard product={p} />)}
-      </div>
-    ) : (
-      <div class="empty-state">
-        <h3>Nicio ofertă activă momentan</h3>
-        <p>Revino în curând — actualizăm ofertele regulat.</p>
-      </div>
-    )}
-  </div>
-</Layout>
+<CollectionPage
+  title="Oferte active"
+  current="oferte"
+  products={products}
+  emptyTitle="Nicio ofertă activă momentan"
+  emptyText="Revino în curând — actualizăm ofertele regulat."
+/>

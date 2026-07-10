@@ -1,0 +1,13 @@
+---
+import CollectionPage from '../components/CollectionPage.astro';
+import { getProductsByCategory } from '../lib/products.js';
+
+const products = getProductsByCategory('modele-noi');
+---
+<CollectionPage
+  title="Noutăți"
+  current="noutati"
+  products={products}
+  emptyTitle="Niciun model nou momentan"
+  emptyText="Revino în curând — adăugăm modele noi regulat."
+/>

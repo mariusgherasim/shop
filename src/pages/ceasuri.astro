@@ -1,24 +1,7 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import ProductCard from '../components/ProductCard.astro';
+import CollectionPage from '../components/CollectionPage.astro';
 import { getProductsByCategory } from '../lib/products.js';
 
 const products = getProductsByCategory('ceasuri');
 ---
-<Layout current="ceasuri" title="Ceasuri — shop.gherasimmarius">
-  <div class="container section">
-    <div class="section-head">
-      <h2>Ceasuri</h2>
-    </div>
-    {products.length > 0 ? (
-      <div class="product-grid">
-        {products.map((p) => <ProductCard product={p} />)}
-      </div>
-    ) : (
-      <div class="empty-state">
-        <h3>În curând</h3>
-        <p>Adăugăm modele noi în fiecare săptămână.</p>
-      </div>
-    )}
-  </div>
-</Layout>
+<CollectionPage title="Ceasuri" current="ceasuri" products={products} />

@@ -1,0 +1,13 @@
+---
+import CollectionPage from '../components/CollectionPage.astro';
+import { getProductsUnderPrice } from '../lib/products.js';
+
+const products = getProductsUnderPrice(150);
+---
+<CollectionPage
+  title="Sub 150 lei"
+  current="sub-150-lei"
+  products={products}
+  emptyTitle="Nimic sub 150 Lei momentan"
+  emptyText="Revino în curând — actualizăm selecția regulat."
+/>

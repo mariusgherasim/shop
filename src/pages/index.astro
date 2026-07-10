@@ -2,10 +2,10 @@
 import Layout from '../layouts/Layout.astro';
 import ProductCard from '../components/ProductCard.astro';
 import Newsletter from '../components/Newsletter.astro';
-import { getAllProducts, getOffers } from '../lib/products.js';
+import { getAllProducts, getFeatured } from '../lib/products.js';
 
 const all = getAllProducts();
-const offers = getOffers();
+const featured = getFeatured();
 const picks = all.slice(0, 3);
 ---
 <Layout current="home">
@@ -22,6 +22,17 @@ const picks = all.slice(0, 3);
   </section>
 
   <div class="container">
+    <section class="section" style="padding-bottom: 0;">
+      <div class="filters">
+        <a class="filter-chip" href="/ceasuri">Ceasuri</a>
+        <a class="filter-chip" href="/ochelari-de-soare">Ochelari de soare</a>
+        <a class="filter-chip" href="/sub-150-lei">Sub 150 lei</a>
+        <a class="filter-chip" href="/cadouri-pentru-el">Cadouri pentru el</a>
+        <a class="filter-chip" href="/noutati">Noutăți</a>
+        <a class="filter-chip" href="/oferte">Oferte</a>
+      </div>
+    </section>
+
     {picks.length > 0 && (
       <section class="section">
         <div class="section-head">
@@ -33,14 +44,14 @@ const picks = all.slice(0, 3);
       </section>
     )}
 
-    {offers.length > 0 && (
+    {featured.length > 0 && (
       <section class="section">
         <div class="section-head">
           <h2>Oferta săptămânii</h2>
-          <a href="/oferte" class="eyebrow">Toate ofertele →</a>
+          <a href="/ofertele-saptamanii" class="eyebrow">Toate selecțiile →</a>
         </div>
         <div class="product-grid">
-          {offers.slice(0, 4).map((p) => <ProductCard product={p} />)}
+          {featured.map((p) => <ProductCard product={p} />)}
         </div>
       </section>
     )}
