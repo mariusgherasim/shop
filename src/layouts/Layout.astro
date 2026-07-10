@@ -52,9 +52,9 @@ const GA_MEASUREMENT_ID = 'G-HS59YL4Y3D';
     <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}></script>
     <script define:vars={{ GA_MEASUREMENT_ID }}>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', GA_MEASUREMENT_ID);
+      window.gtag = function(){ window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', GA_MEASUREMENT_ID);
     </script>
   </head>
   <body>
@@ -70,8 +70,8 @@ const GA_MEASUREMENT_ID = 'G-HS59YL4Y3D';
     <script>
       document.addEventListener('click', (e) => {
         const card = e.target.closest('.product-card');
-        if (!card || typeof gtag !== 'function') return;
-        gtag('event', 'affiliate_click', {
+        if (!card || typeof window.gtag !== 'function') return;
+        window.gtag('event', 'affiliate_click', {
           item_id: card.dataset.productId,
           item_name: card.dataset.title,
           item_brand: card.dataset.brand,
