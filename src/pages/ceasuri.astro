@@ -1,7 +1,0 @@
----
-import CollectionPage from '../components/CollectionPage.astro';
-import { getProductsByCategory } from '../lib/products.js';
-
-const products = getProductsByCategory('ceasuri');
----
-<CollectionPage title="Ceasuri" current="ceasuri" products={products} />
