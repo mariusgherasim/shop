@@ -162,8 +162,17 @@ async function updatePrices() {
     const products = JSON.parse(fs.readFileSync("src/data/products.json", "utf8"));
 
     let browser = null;
+    let skippedDraft = 0;
 
     for (const product of products) {
+        // IMPORTANT: produsele draft nu sunt live pe site — n-are rost să le
+        // ținem prețul "proaspăt". La un catalog mare (mii de draft-uri din
+        // import feed), asta economisește ore întregi de scraping inutil.
+        if (product.draft) {
+            skippedDraft++;
+            continue;
+        }
+
         if (!product.official_url) {
             console.log("⏭ Fără official_url, ignor:", product.title);
             continue;
@@ -196,7 +205,8 @@ async function updatePrices() {
     }
 
     fs.writeFileSync("src/data/products.json", JSON.stringify(products, null, 2) + "\n");
-    console.log("\nToate prețurile au fost actualizate.");
+    console.log(`\n⏭ Sărite (draft): ${skippedDraft}`);
+    console.log("Toate prețurile au fost actualizate.");
 }
 
 updatePrices();
