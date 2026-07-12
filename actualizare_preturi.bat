@@ -1,3 +1,3 @@
 @echo off
-node update-prices.js
+node update-prices.cjs
 pause
