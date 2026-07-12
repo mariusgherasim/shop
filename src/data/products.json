@@ -32,8 +32,8 @@
       "rezistenta_apa": "10 ATM",
       "inchidere": "Catarama standard"
     }
-  },
-  {
+    },
+    {
     "id": "233614",
     "source_site": "watchshop.ro",
     "brand": "Festina",
@@ -53,9 +53,9 @@
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=2e49eab4f&unique=OgJGsjdsBA1k",
     "specs": {
       "mecanism": "Automatic"
-    }
-  },
-  {
+      }
+    },
+    {
     "id": "294374",
     "source_site": "watchshop.ro",
     "brand": "Michael Kors Empire",
@@ -75,8 +75,8 @@
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=2e49eab4f&unique=kTwVC4-QmvZt",
     "specs": {
       "mecanism": null
-    }
-  },
+      }
+    },
   {
     "id": "78355",
     "source_site": "watchshop.ro",
