@@ -1,0 +1,13 @@
+---
+import CollectionPage from '../components/CollectionPage.astro';
+import { getFeatured } from '../lib/products.js';
+
+const products = getFeatured();
+---
+<CollectionPage
+  title="Oferta săptămânii"
+  current="ofertele-saptamanii"
+  products={products}
+  emptyTitle="Nicio selecție momentan"
+  emptyText='Marchează produse cu "featured": true în src/data/products.json ca să apară aici.'
+/>

@@ -1,0 +1,18 @@
+---
+import CollectionPage from '../../components/CollectionPage.astro';
+import { getProductsUnderPrice } from '../../lib/products.js';
+
+export async function getStaticPaths({ paginate }) {
+  const products = getProductsUnderPrice(150);
+  return paginate(products, { pageSize: 24 });
+}
+
+const { page } = Astro.props;
+---
+<CollectionPage
+  title="Sub 150 lei"
+  current="sub-150-lei"
+  page={page}
+  emptyTitle="Nimic sub 150 Lei momentan"
+  emptyText="Revino în curând — actualizăm selecția regulat."
+/>

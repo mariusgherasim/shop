@@ -1,0 +1,18 @@
+---
+import CollectionPage from '../../components/CollectionPage.astro';
+import { getProductsByCategory } from '../../lib/products.js';
+
+export async function getStaticPaths({ paginate }) {
+  const products = getProductsByCategory('cadouri-pentru-el');
+  return paginate(products, { pageSize: 24 });
+}
+
+const { page } = Astro.props;
+---
+<CollectionPage
+  title="Cadouri pentru el"
+  current="cadouri-pentru-el"
+  page={page}
+  emptyTitle="Colecția pornește în curând"
+  emptyText='Adaugă produse cu categoria "cadouri-pentru-el" în src/data/products.json ca să apară aici.'
+/>

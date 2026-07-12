@@ -1,0 +1,18 @@
+---
+import CollectionPage from '../../components/CollectionPage.astro';
+import { getProductsByCategory } from '../../lib/products.js';
+
+export async function getStaticPaths({ paginate }) {
+  const products = getProductsByCategory('ochelari-de-soare');
+  return paginate(products, { pageSize: 24 });
+}
+
+const { page } = Astro.props;
+---
+<CollectionPage
+  title="Ochelari de soare"
+  current="ochelari"
+  page={page}
+  emptyTitle="Colecția pornește în curând"
+  emptyText='Adaugă produse cu categoria "ochelari-de-soare" în src/data/products.json ca să apară aici.'
+/>

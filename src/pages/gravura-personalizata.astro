@@ -1,0 +1,128 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const images = [
+  { src: '/gravura/gravura-1.jpg', alt: 'Gravură personalizată Fossil — inițiale și dată' },
+  { src: '/gravura/gravura-2.jpg', alt: 'Gravură personalizată Orient — mesaj de dragoste' },
+  { src: '/gravura/gravura-3.jpg', alt: 'Gravură personalizată Fossil — "Soția te iubește"' },
+  { src: '/gravura/gravura-4.jpg', alt: 'Gravură personalizată Fossil — "Din partea echipei"' },
+];
+
+// Link general de afiliere spre WatchShop.ro (2Performant), pentru CTA-ul de gravură.
+const generalCtaUrl = 'https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=2e49eab4f&unique=01de141ef';
+---
+<Layout
+  current="oferte"
+  title="Gravură personalizată — shop.gherasimmarius"
+  description="Gravează pe capacul ceasului numele, o dată sau un mesaj de iubire. Serviciu de gravură personalizată prin WatchShop.ro."
+>
+  <div class="container section" style="max-width: 76ch;">
+    <p class="eyebrow">Serviciu prin WatchShop.ro</p>
+    <h1>Gravură personalizată</h1>
+
+    <p>
+      Deja ai ales cadoul perfect pentru o persoană dragă: ceasul mult dorit.
+      Impresionează cu un plus de atenție și originalitate — gravează pe cadoul
+      cumpărat numele tău, numele ei/lui, data nașterii, data căsătoriei, un
+      mesaj de iubire sau orice altă frază care contează pentru voi.
+    </p>
+
+    <div class="gravura-gallery">
+      {images.map((img) => (
+        <button type="button" class="gravura-thumb" data-full={img.src} data-alt={img.alt} aria-label={`Mărește imaginea: ${img.alt}`}>
+          <img src={img.src} alt={img.alt} loading="lazy" />
+        </button>
+      ))}
+    </div>
+    <p class="eyebrow" style="margin: -1rem 0 2rem;">Click pe o imagine pentru a o mări</p>
+
+    <h2>Cum funcționează</h2>
+    <ol>
+      <li>Vezi mai sus exemple de ceasuri gravate.</li>
+      <li>Pune produsul dorit în coșul de cumpărături, pe WatchShop.ro.</li>
+      <li>În coș, citește condițiile de mai jos.</li>
+      <li>Bifează, la "Alte opțiuni", <strong>"Doresc gravură cu numai 100 lei pentru ceasul comandat"</strong>.</li>
+      <li>Alege tipul de font (poți verifica în Word cum arată mesajul tău scris cu fontul respectiv).</li>
+      <li>Alege dimensiunea fontului.</li>
+      <li>Scrie mesajul dorit — <strong>maximum 15 caractere</strong>.</li>
+    </ol>
+
+    <h2>Plată și termene</h2>
+    <p>
+      Plata ceasului care urmează să fie gravat se face <strong>în avans</strong>
+      (nu se acceptă plata ramburs). Se poate plăti prin transfer bancar (OP, cu
+      factură proformă trimisă pe email), online cu cardul, sau online cu cardul
+      în rate fără dobândă (Card Avantaj, Card Raiffeisen, Bonus Card, Banca
+      Transilvania).
+    </p>
+    <p>
+      <strong>Termen de gravură:</strong> 3 zile lucrătoare pentru București,
+      5 zile lucrătoare pentru restul țării — la care se adaugă termenul normal
+      de livrare al produsului (48h – 18 zile lucrătoare, în funcție de produs).
+    </p>
+
+    <h2>Condiții</h2>
+    <ul>
+      <li>Ceasurile gravate nu se returnează și nu se pot înlocui.</li>
+      <li>Cost gravare: 100 RON / lucrare.</li>
+      <li>Nu orice ceas poate fi gravat — decizia finală aparține gravorului. Ceasurile din titan nu pot fi gravate pe capacul din spate (metal prea dur); ceasurile cu mecanism expus prin capac de sticlă nu pot fi gravate.</li>
+      <li>Gravura poate anula garanția mecanismului la mărcile Tissot, Hugo Boss și Calvin Klein — se gravează pe răspunderea clientului.</li>
+      <li>Gravura se face doar pe capacul ceasului, doar în spații libere (nu peste inscripții existente).</li>
+      <li>Dimensiune minimă font: 8pt.</li>
+      <li>Nu se poate grava pe capace din plastic sau titan.</li>
+      <li>Comerciantul nu își asumă răspunderea pentru eventuale zgârieturi apărute în urma gravării.</li>
+    </ul>
+
+    <p class="eyebrow">
+      Smartwatch-urile, produsele cu mecanism automatic expus, și ceasurile Festina și Versace nu permit gravarea.
+    </p>
+
+    <div class="gravura-cta">
+      <a
+        href={generalCtaUrl}
+        target="_blank"
+        rel="sponsored nofollow noopener"
+        class="price-btn affiliate-cta"
+        style="display: inline-block;"
+        data-product-id="gravura-personalizata"
+        data-brand="WatchShop.ro"
+        data-title="Gravură personalizată"
+        data-price="100"
+      >
+        Vezi ceasurile disponibile pentru gravură →
+      </a>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" hidden>
+    <button type="button" id="lightbox-close" class="lightbox-close" aria-label="Închide imaginea mărită">✕</button>
+    <img id="lightbox-img" src="" alt="" />
+  </div>
+
+  <script>
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const closeBtn = document.getElementById('lightbox-close');
+
+    document.querySelectorAll('.gravura-thumb').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        lightboxImg.setAttribute('src', btn.dataset.full);
+        lightboxImg.setAttribute('alt', btn.dataset.alt);
+        lightbox.hidden = false;
+      });
+    });
+
+    function close() {
+      lightbox.hidden = true;
+      lightboxImg.setAttribute('src', '');
+    }
+    closeBtn.addEventListener('click', close);
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) close();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') close();
+    });
+  </script>
+</Layout>

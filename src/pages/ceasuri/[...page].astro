@@ -1,0 +1,12 @@
+---
+import CollectionPage from '../../components/CollectionPage.astro';
+import { getProductsByCategory } from '../../lib/products.js';
+
+export async function getStaticPaths({ paginate }) {
+  const products = getProductsByCategory('ceasuri');
+  return paginate(products, { pageSize: 24 });
+}
+
+const { page } = Astro.props;
+---
+<CollectionPage title="Ceasuri" current="ceasuri" page={page} />

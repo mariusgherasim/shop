@@ -1,0 +1,18 @@
+---
+import CollectionPage from '../../components/CollectionPage.astro';
+import { getProductsByCategory } from '../../lib/products.js';
+
+export async function getStaticPaths({ paginate }) {
+  const products = getProductsByCategory('modele-noi');
+  return paginate(products, { pageSize: 24 });
+}
+
+const { page } = Astro.props;
+---
+<CollectionPage
+  title="Noutăți"
+  current="noutati"
+  page={page}
+  emptyTitle="Niciun model nou momentan"
+  emptyText="Revino în curând — adăugăm modele noi regulat."
+/>

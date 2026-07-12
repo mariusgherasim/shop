@@ -1,0 +1,78 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout current="cautare" title="Caută — shop.gherasimmarius">
+  <div class="container section">
+    <div class="section-head">
+      <h2>Caută un produs</h2>
+    </div>
+    <div class="search-box">
+      <input
+        id="search-input"
+        type="search"
+        placeholder="Ex: Curren, Festina, quartz, negru..."
+        aria-label="Caută produse"
+        disabled
+      />
+    </div>
+    <p id="search-loading" class="eyebrow">Se încarcă indexul de căutare...</p>
+    <div id="search-results" class="product-grid" aria-live="polite"></div>
+    <p id="search-empty" class="empty-state" hidden>
+      <strong>Niciun rezultat.</strong> Încearcă un alt brand sau cuvânt cheie.
+    </p>
+  </div>
+
+  <script>
+    const input = document.getElementById('search-input');
+    const results = document.getElementById('search-results');
+    const empty = document.getElementById('search-empty');
+    const loading = document.getElementById('search-loading');
+
+    let data = [];
+
+    // Indexul e un fișier JSON separat (generat static la build), nu mai e
+    // inline în pagină — la mii de produse, embed-ul inline ar fi umflat
+    // enorm HTML-ul acestei pagini pentru orice vizitator.
+    fetch('/search-index.json')
+      .then((r) => r.json())
+      .then((json) => {
+        data = json;
+        loading.hidden = true;
+        input.disabled = false;
+      })
+      .catch(() => {
+        loading.textContent = 'Nu am putut încărca indexul de căutare. Reîncearcă mai târziu.';
+      });
+
+    function cardHTML(p) {
+      return `
+        <a class="product-card" href="${p.affiliate_url}" target="_blank" rel="sponsored nofollow noopener"
+           data-product-id="${p.id}" data-brand="${p.brand ?? ''}" data-title="${p.title}" data-price="${p.price}">
+          <div class="thumb"><img src="${p.image_url}" alt="${p.title}" loading="lazy" /></div>
+          <div class="body">
+            <span class="brand">${p.brand ?? ''}</span>
+            <h3>${p.title}</h3>
+            <div class="price-row">
+              <span class="price-btn">${p.price?.toFixed(2)} Lei</span>
+            </div>
+          </div>
+        </a>`;
+    }
+
+    function render(list) {
+      // limita rezultatelor afișate, ca să nu randăm mii de carduri deodată
+      const capped = list.slice(0, 60);
+      results.innerHTML = capped.map(cardHTML).join('');
+      empty.hidden = list.length > 0;
+    }
+
+    input.addEventListener('input', () => {
+      const q = input.value.trim().toLowerCase();
+      if (!q) { render([]); empty.hidden = true; return; }
+      const filtered = data.filter((p) =>
+        [p.title, p.brand, ...(p.category || [])].join(' ').toLowerCase().includes(q)
+      );
+      render(filtered);
+    });
+  </script>
+</Layout>
