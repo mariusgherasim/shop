@@ -69,7 +69,7 @@ const GA_MEASUREMENT_ID = 'G-HS59YL4Y3D';
     -->
     <script>
       document.addEventListener('click', (e) => {
-        const card = e.target.closest('.product-card');
+        const card = e.target.closest('.product-card, .affiliate-cta');
         if (!card || typeof window.gtag !== 'function') return;
         window.gtag('event', 'affiliate_click', {
           item_id: card.dataset.productId,
@@ -79,6 +79,29 @@ const GA_MEASUREMENT_ID = 'G-HS59YL4Y3D';
           currency: 'RON',
         });
       });
+    </script>
+    <script>
+      function updateCountdowns() {
+        document.querySelectorAll('[data-countdown]').forEach((el) => {
+          const end = new Date(el.dataset.countdown).getTime();
+          const diff = end - Date.now();
+
+          if (diff <= 0) {
+            el.textContent = 'Ofertă încheiată';
+            return;
+          }
+
+          const pad = (n) => String(n).padStart(2, '0');
+          const days = Math.floor(diff / 86400000);
+          const hours = Math.floor((diff % 86400000) / 3600000);
+          const minutes = Math.floor((diff % 3600000) / 60000);
+          const seconds = Math.floor((diff % 60000) / 1000);
+
+          el.textContent = `${pad(days)}z / ${pad(hours)}o / ${pad(minutes)}m / ${pad(seconds)}s`;
+        });
+      }
+      updateCountdowns();
+      setInterval(updateCountdowns, 1000);
     </script>
   </body>
 </html>

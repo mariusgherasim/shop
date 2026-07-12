@@ -13,13 +13,6 @@ const {
   specs = {},
 } = product;
 
-function daysLeft(dateStr) {
-  if (!dateStr) return null;
-  const ms = new Date(dateStr).getTime() - Date.now();
-  return Math.max(1, Math.ceil(ms / 86400000));
-}
-const left = offerActive ? daysLeft(offer_end) : null;
-
 const specChips = Object.entries(specs).slice(0, 3);
 ---
 <a
@@ -49,6 +42,8 @@ const specChips = Object.entries(specs).slice(0, 3);
       {old_price ? <span class="old-price">{old_price.toFixed(2)} Lei</span> : null}
       <span class="price-btn">{price.toFixed(2)} Lei</span>
     </div>
-    {left ? <span class="offer-end">Oferta se încheie în {left} {left === 1 ? 'zi' : 'zile'}</span> : null}
+    {offerActive && offer_end ? (
+      <span class="offer-end" data-countdown={offer_end}>Calculăm timpul rămas...</span>
+    ) : null}
   </div>
 </a>
