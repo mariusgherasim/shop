@@ -196,6 +196,37 @@ h1, h2, h3 {
   color: #fff;
 }
 
+/* ---------- Attention pulse (research: warm high-contrast color grabs
+   attention fastest; capped well under WCAG's 3-flashes/sec limit) ---------- */
+@keyframes chipPulse {
+  0% {
+    background: var(--color-surface);
+    color: inherit;
+    box-shadow: none;
+    transform: scale(1);
+  }
+  50% {
+    background: #FFC94D;
+    border-color: #FFC94D;
+    color: var(--color-navy);
+    font-weight: 700;
+    box-shadow: 0 0 0 4px rgba(255, 201, 77, 0.35), 0 4px 14px rgba(255, 201, 77, 0.5);
+    transform: scale(1.08);
+  }
+  100% {
+    background: var(--color-surface);
+    color: inherit;
+    box-shadow: none;
+    transform: scale(1);
+  }
+}
+.filter-chip.chip-pulse {
+  animation: chipPulse 1.6s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .filter-chip.chip-pulse { animation: none; }
+}
+
 /* ---------- Product grid & card ---------- */
 .product-grid {
   display: grid;
