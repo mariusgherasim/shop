@@ -5,20 +5,36 @@ import ProductCard from './ProductCard.astro';
 const {
   title,
   current = '',
-  products = [],
+  page,       // obiect Page<T> de la Astro paginate() — pentru colecții mari, paginate
+  products: productsProp, // array simplu — pentru colecții mici, fără paginare (ex: Oferta săptămânii)
   emptyTitle = 'În curând',
   emptyText = 'Adăugăm produse noi în această colecție în curând.',
 } = Astro.props;
+
+const products = page ? page.data : (productsProp || []);
+const currentPage = page ? page.currentPage : 1;
+const lastPage = page ? page.lastPage : 1;
+const url = page ? page.url : {};
 ---
 <Layout current={current} title={`${title} — shop.gherasimmarius`}>
   <div class="container section">
     <div class="section-head">
       <h2>{title}</h2>
+      {lastPage > 1 && <span class="eyebrow">Pagina {currentPage} din {lastPage}</span>}
     </div>
     {products.length > 0 ? (
-      <div class="product-grid">
-        {products.map((p) => <ProductCard product={p} />)}
-      </div>
+      <>
+        <div class="product-grid">
+          {products.map((p) => <ProductCard product={p} />)}
+        </div>
+        {lastPage > 1 && (
+          <nav class="pagination" aria-label="Paginare">
+            {url.prev ? <a href={url.prev} class="pagination-link">← Anterioară</a> : <span class="pagination-link pagination-disabled">← Anterioară</span>}
+            <span class="pagination-current">{currentPage} / {lastPage}</span>
+            {url.next ? <a href={url.next} class="pagination-link">Următoarea →</a> : <span class="pagination-link pagination-disabled">Următoarea →</span>}
+          </nav>
+        )}
+      </>
     ) : (
       <div class="empty-state">
         <h3>{emptyTitle}</h3>
@@ -26,4 +42,5 @@ const {
       </div>
     )}
   </div>
+  <slot />
 </Layout>
