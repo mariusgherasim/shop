@@ -103,5 +103,35 @@ const GA_MEASUREMENT_ID = 'G-HS59YL4Y3D';
       updateCountdowns();
       setInterval(updateCountdowns, 1000);
     </script>
+    <script>
+      // Puls de atenție, aleatoriu, pe câte un buton de categorie (filter-chip),
+      // unul câte unul. Respectă prefers-reduced-motion (nu pornește deloc dacă
+      // vizitatorul a cerut animații reduse din sistemul lui).
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const chips = document.querySelectorAll('.filter-chip');
+
+      if (!reduceMotion && chips.length > 0) {
+        let lastIndex = -1;
+
+        function pulseRandomChip() {
+          let index;
+          do {
+            index = Math.floor(Math.random() * chips.length);
+          } while (chips.length > 1 && index === lastIndex);
+          lastIndex = index;
+
+          const chip = chips[index];
+          chip.classList.add('chip-pulse');
+          setTimeout(() => chip.classList.remove('chip-pulse'), 1600);
+        }
+
+        // Primul puls după o mică pauză, apoi la fiecare ~4.5s (± puțină variație,
+        // ca să nu pară un metronom robotic).
+        setTimeout(function loop() {
+          pulseRandomChip();
+          setTimeout(loop, 4000 + Math.random() * 2000);
+        }, 2000);
+      }
+    </script>
   </body>
 </html>
