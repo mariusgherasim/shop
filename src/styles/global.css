@@ -365,6 +365,37 @@ h1, h2, h3 {
 }
 .empty-state h3 { color: var(--color-ink); margin-bottom: 0.4rem; }
 
+/* ---------- Pagination ---------- */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+.pagination-link {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  padding: 0.6rem 1.1rem;
+  border: 1px solid var(--color-steel-light);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+a.pagination-link:hover {
+  border-color: var(--color-brass);
+  background: var(--color-bg);
+}
+.pagination-disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.pagination-current {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--color-steel);
+}
+
 /* ---------- Gravura gallery + lightbox ---------- */
 .gravura-gallery {
   display: grid;
