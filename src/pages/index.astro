@@ -2,11 +2,10 @@
 import Layout from '../layouts/Layout.astro';
 import ProductCard from '../components/ProductCard.astro';
 import Newsletter from '../components/Newsletter.astro';
-import { getAllProducts, getFeatured } from '../lib/products.js';
+import { getRecommended, getFeatured } from '../lib/products.js';
 
-const all = getAllProducts();
+const picks = getRecommended();
 const featured = getFeatured();
-const picks = all.slice(0, 3);
 ---
 <Layout current="home">
   <section class="hero">
