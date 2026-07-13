@@ -30,6 +30,14 @@ export function getProductsUnderPrice(maxPrice) {
   return getAllProducts().filter((p) => p.price <= maxPrice);
 }
 
+/** Recomandările curente (homepage) — selecție manuală prin `"recomandat": true`.
+ *  Dacă nu ai marcat niciun produs, cade automat pe primele 3 din fișier,
+ *  ca homepage-ul să nu rămână gol. */
+export function getRecommended() {
+  const marked = getAllProducts().filter((p) => p.recomandat === true);
+  return marked.length > 0 ? marked : getAllProducts().slice(0, 3);
+}
+
 /** Ofertele săptămânii — selecție manuală, marcată cu `featured: true` în products.json. */
 export function getFeatured() {
   return getAllProducts().filter((p) => p.featured === true);
