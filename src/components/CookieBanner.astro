@@ -1,0 +1,23 @@
+<div id="cookie-banner" class="cookie-banner" hidden>
+  <p>
+    Acest site folosește cookie-uri (Google Analytics) ca să înțelegem traficul și
+    să îmbunătățim experiența. Continuând navigarea, ești de acord cu
+    <a href="/politica-de-confidentialitate">Politica de confidențialitate</a>.
+  </p>
+  <button type="button" id="cookie-banner-dismiss">Am înțeles</button>
+</div>
+
+<script>
+  const banner = document.getElementById('cookie-banner');
+  const dismissBtn = document.getElementById('cookie-banner-dismiss');
+  const STORAGE_KEY = 'cookie-consent-dismissed';
+
+  if (!localStorage.getItem(STORAGE_KEY)) {
+    banner.hidden = false;
+  }
+
+  dismissBtn.addEventListener('click', () => {
+    localStorage.setItem(STORAGE_KEY, '1');
+    banner.hidden = true;
+  });
+</script>
