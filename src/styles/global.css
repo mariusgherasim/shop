@@ -396,6 +396,49 @@ a.pagination-link:hover {
   color: var(--color-steel);
 }
 
+/* ---------- Cookie banner (informativ, non-blocant) ---------- */
+.cookie-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 90;
+  background: var(--color-navy);
+  color: rgba(243,238,227,0.85);
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+.cookie-banner[hidden] {
+  display: none;
+}
+.cookie-banner p {
+  margin: 0;
+  font-size: 0.85rem;
+  max-width: 60ch;
+}
+.cookie-banner a {
+  color: var(--color-brass);
+  text-decoration: underline;
+}
+.cookie-banner button {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 0.5rem 1.1rem;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--color-brass);
+  color: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.cookie-banner button:hover { background: var(--color-brass-dark); }
+
 /* ---------- Gravura gallery + lightbox ---------- */
 .gravura-gallery {
   display: grid;
