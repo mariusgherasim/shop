@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import CookieBanner from '../components/CookieBanner.astro';
 import '../styles/global.css';
 
 const {
@@ -61,6 +62,7 @@ const GA_MEASUREMENT_ID = 'G-HS59YL4Y3D';
     <Header current={current} />
     <slot />
     <Footer />
+    <CookieBanner />
 
     <!--
       Tracking click-uri afiliere — același eveniment `affiliate_click` folosit
