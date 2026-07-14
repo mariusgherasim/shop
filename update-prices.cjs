@@ -44,6 +44,15 @@ function calculateDiscount(oldPrice, newPrice) {
     return Math.round(((oldPrice - newPrice) / oldPrice) * 100);
 }
 
+// Siguranță: selectoarele de "preț vechi" pe watchshop.ro nu sunt confirmate
+// cu markup real (spre deosebire de cel de preț curent) — pot prinde din
+// greșeală alt număr de pe pagină (SKU, telefon etc.). Un preț vechi de peste
+// 5x prețul curent e aproape sigur o eroare, nu o reducere reală.
+function isPlausibleOldPrice(oldPrice, price) {
+    if (!oldPrice || !price) return false;
+    return oldPrice > price && oldPrice <= price * 5;
+}
+
 // Selectoare încercate în ordine — platforma Gomag (ceasuri-shop.ro) folosește
 // de obicei una din variantele astea pe pagina de produs. Dacă niciuna nu
 // prinde, verifică manual pagina (click dreapta -> Inspect pe preț) și
@@ -80,7 +89,7 @@ async function updateCeasuriShop(product) {
 
     product.price = price;
 
-    if (oldPrice && oldPrice > price) {
+    if (isPlausibleOldPrice(oldPrice, price)) {
         product.old_price = oldPrice;
     } else {
         product.old_price = null;
@@ -149,7 +158,7 @@ async function updateWatchshop(product, browser) {
         }
 
         product.price = price;
-        product.old_price = oldPrice && oldPrice > price ? oldPrice : null;
+        product.old_price = isPlausibleOldPrice(oldPrice, price) ? oldPrice : null;
 
         console.log("✔", product.title, product.price, product.old_price ? `(vechi: ${product.old_price})` : "");
     } finally {
