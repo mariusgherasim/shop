@@ -84,6 +84,8 @@ async function updateCeasuriShop(product) {
 
     if (price == null) {
         console.log("⚠ Nu am găsit prețul:", product.title);
+        console.log("🔴 Dezactivat automat (produs inactiv la sursă):", product.title);
+        product.draft = true;
         return;
     }
 
@@ -151,9 +153,12 @@ async function updateWatchshop(product, browser) {
         const oldPrice = parsePrice(oldText);
 
         if (price == null) {
+            const pageTitle = await page.title();
             console.log("⚠ Nu am găsit prețul (watchshop):", product.title);
             console.log("   URL final:", page.url());
-            console.log("   Titlu pagină:", await page.title());
+            console.log("   Titlu pagină:", pageTitle);
+            console.log("🔴 Dezactivat automat (produs inactiv la sursă):", product.title);
+            product.draft = true;
             return;
         }
 
@@ -172,6 +177,7 @@ async function updatePrices() {
 
     let browser = null;
     let skippedDraft = 0;
+    const deactivated = [];
 
     for (const product of products) {
         // IMPORTANT: produsele draft nu sunt live pe site — n-are rost să le
@@ -201,6 +207,13 @@ async function updatePrices() {
             } else {
                 console.log("⏭ Sursă necunoscută, ignor:", product.title, product.source_site);
             }
+
+            // Produsul a fost draft:false la intrarea în buclă (le sărim pe cele
+            // draft mai sus) — dacă acum e draft:true, updateCeasuriShop/updateWatchshop
+            // tocmai l-a dezactivat automat pentru că nu a găsit prețul la sursă.
+            if (product.draft) {
+                deactivated.push(product);
+            }
         } catch (error) {
             console.log("\n❌", product.title);
             console.log(error.message);
@@ -215,7 +228,17 @@ async function updatePrices() {
 
     fs.writeFileSync("src/data/products.json", JSON.stringify(products, null, 2) + "\n");
     console.log(`\n⏭ Sărite (draft): ${skippedDraft}`);
-    console.log("Toate prețurile au fost actualizate.");
+
+    if (deactivated.length > 0) {
+        console.log(`\n🔴 Produse dezactivate automat în această rulare (${deactivated.length}) — nu mai există la sursă, verifică-le manual dacă vrei să le repari sau să le ștergi din products.json:`);
+        for (const p of deactivated) {
+            console.log(`   - [${p.id}] ${p.title} (${p.source_site})`);
+        }
+    } else {
+        console.log("\n✔ Niciun produs dezactivat automat — toate prețurile s-au găsit corect.");
+    }
+
+    console.log("\nToate prețurile au fost actualizate.");
 }
 
 updatePrices();
