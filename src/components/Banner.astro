@@ -1,0 +1,137 @@
+---
+// Banner.astro — afișează un banner de afiliere (watchshop.ro / 2Performant),
+// ales automat, rotativ zilnic, dintr-un slot de dimensiune predefinit.
+//
+// Utilizare:
+//   <Banner variant="hero" />
+//   <Banner variant="rectangle" />
+//   <Banner variant="square" />
+//
+// Logica de alegere rulează în browser (vezi <script> mai jos), pe baza
+// datei curente ca "sămânță" — toți vizitatorii văd același banner într-o
+// zi, iar el se schimbă automat la miezul nopții, fără rebuild.
+
+export interface Props {
+  variant: "hero" | "rectangle" | "square";
+}
+
+const { variant } = Astro.props;
+
+const LABELS: Record<string, string> = {
+  hero: "Ofertă parteneră",
+  rectangle: "Ofertă parteneră",
+  square: "Ofertă parteneră",
+};
+---
+
+<div class="banner-slot" data-variant={variant}>
+  <div class="banner-label">{LABELS[variant]}</div>
+  <a class="banner-link" href="#" target="_blank" rel="nofollow noopener" style="display:none;">
+    <img class="banner-img" src="" alt="watchshop.ro" />
+  </a>
+  <p class="banner-caption">Vezi oferta completă →</p>
+</div>
+
+<style>
+  .banner-slot {
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1.5px solid #C89B3C;
+    max-width: 100%;
+  }
+  .banner-slot[data-variant="rectangle"] {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .banner-slot[data-variant="square"] {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .banner-slot[data-variant="hero"] {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .banner-label {
+    padding: 8px 10px;
+    background: #0B1F4A;
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #C89B3C;
+  }
+  .banner-link {
+    display: block;
+  }
+  .banner-img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .banner-caption {
+    padding: 8px 10px;
+    margin: 0;
+    font-size: 11px;
+    color: #8a7f66;
+  }
+  /* Ascunde slotul complet dacă nu s-a găsit niciun banner potrivit */
+  .banner-slot[data-empty="true"] {
+    display: none;
+  }
+</style>
+
+<script>
+  // Rulează o singură dată per slot, la încărcarea paginii.
+  function hashSeed(str: string): number {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+      hash = (hash * 31 + str.charCodeAt(i)) | 0;
+    }
+    return Math.abs(hash);
+  }
+
+  function matchesVariant(b: any, variant: string): boolean {
+    if (!b.channels || !b.channels.includes("site")) return false;
+    if (variant === "hero") return b.width >= 380 && b.width / b.height >= 1.8;
+    if (variant === "rectangle") return b.width === 300 && b.height === 250;
+    if (variant === "square") return b.width === b.height && b.width >= 400;
+    return false;
+  }
+
+  async function initBanners() {
+    let banners: any[] = [];
+    try {
+      const res = await fetch("/banners.json");
+      banners = await res.json();
+    } catch (e) {
+      console.warn("Nu am putut încărca banners.json", e);
+      return;
+    }
+
+    const today = new Date().toISOString().slice(0, 10); // ex. "2026-07-19"
+
+    document.querySelectorAll<HTMLElement>(".banner-slot").forEach((slot) => {
+      const variant = slot.dataset.variant || "";
+      const pool = banners.filter((b) => matchesVariant(b, variant));
+
+      if (pool.length === 0) {
+        slot.setAttribute("data-empty", "true");
+        return;
+      }
+
+      const seed = `${today}-${variant}`;
+      const index = hashSeed(seed) % pool.length;
+      const chosen = pool[index];
+
+      const link = slot.querySelector<HTMLAnchorElement>(".banner-link");
+      const img = slot.querySelector<HTMLImageElement>(".banner-img");
+      if (link && img) {
+        link.href = chosen.click_url;
+        img.src = chosen.image_url;
+        link.style.display = "block";
+      }
+    });
+  }
+
+  initBanners();
+</script>
