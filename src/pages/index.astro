@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import ProductCard from '../components/ProductCard.astro';
 import Newsletter from '../components/Newsletter.astro';
+import Banner from '../components/Banner.astro';
 import { getRecommended, getFeatured } from '../lib/products.js';
 
 const picks = getRecommended();
@@ -33,6 +34,10 @@ const featured = getFeatured();
       </div>
     </section>
 
+    <section class="section">
+      <Banner variant="rectangle" />
+    </section>
+
     {picks.length > 0 && (
       <section class="section">
         <div class="section-head">
@@ -43,6 +48,10 @@ const featured = getFeatured();
         </div>
       </section>
     )}
+
+    <section class="section">
+      <Banner variant="hero" />
+    </section>
 
     {featured.length > 0 && (
       <section class="section">
