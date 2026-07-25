@@ -13,6 +13,7 @@ const {
   specs = {},
 } = product;
 
+const isHotDeal = discount_percent != null && discount_percent > 30;
 const specChips = Object.entries(specs).slice(0, 3);
 ---
 <a
@@ -26,9 +27,10 @@ const specChips = Object.entries(specs).slice(0, 3);
   data-title={title}
   data-price={price}
 >
+  {isHotDeal && <span class="hot-deal-badge">🔥 Hot deal</span>}
   {discount_percent ? <span class="seal">-{discount_percent}%</span> : null}
   <div class="thumb">
-    <img src={image_url} alt={title} loading="lazy" />
+    <img src={image_url} alt={title} loading="lazy" referrerpolicy="no-referrer" />
   </div>
   <div class="body">
     {brand ? <span class="brand">{brand}</span> : null}
