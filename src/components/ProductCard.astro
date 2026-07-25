@@ -27,7 +27,16 @@ const specChips = Object.entries(specs).slice(0, 3);
   data-title={title}
   data-price={price}
 >
-  {isHotDeal && <span class="hot-deal-badge">🔥 Hot deal</span>}
+  {isHotDeal && (
+  <span class="hot-deal-badge" aria-label="Hot Deal">
+    <svg viewBox="0 0 56 64" width="56" height="64" xmlns="http://www.w3.org/2000/svg">
+      <path d="M28 2 C18 14 10 20 12 34 C14 46 22 54 28 58 C34 54 42 46 44 34 C46 20 38 14 28 2Z" fill="#E8492C"/>
+      <path d="M28 16 C22 24 20 30 22 38 C24 44 26 48 28 52 C30 48 32 44 34 38 C36 30 34 24 28 16Z" fill="#F7A034"/>
+      <text x="28" y="36" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="8" font-weight="900" fill="#fff" letter-spacing="0.5">HOT</text>
+      <text x="28" y="46" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="7" font-weight="900" fill="#fff" letter-spacing="0.5">DEAL</text>
+    </svg>
+  </span>
+  )}
   {discount_percent ? <span class="seal">-{discount_percent}%</span> : null}
   <div class="thumb">
     <img src={image_url} alt={title} loading="lazy" referrerpolicy="no-referrer" />
