@@ -3,6 +3,19 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const { chromium } = require("playwright");
 
+const IMG_PROXY = "https://img-proxy.gherasimmarius75.workers.dev/?url=";
+
+/** Asigură că image_url folosește proxy-ul — apelat la orice produs watchshop.ro. */
+function ensureProxiedImage(product) {
+  if (
+    product.image_url &&
+    product.image_url.startsWith("https://cdn.watchshop.ro/") &&
+    !product.image_url.startsWith(IMG_PROXY)
+  ) {
+    product.image_url = IMG_PROXY + product.image_url;
+  }
+}
+
 /**
  * Transformă un text de preț ("109,99 Lei", "1.164,99 Lei", "109.99") într-un
  * număr JS (109.99, 1164.99). Formatul românesc Gomag folosește punct pentru
@@ -164,6 +177,7 @@ async function updateWatchshop(product, browser) {
 
         product.price = price;
         product.old_price = isPlausibleOldPrice(oldPrice, price) ? oldPrice : null;
+        ensureProxiedImage(product);
 
         console.log("✔", product.title, product.price, product.old_price ? `(vechi: ${product.old_price})` : "");
     } finally {
