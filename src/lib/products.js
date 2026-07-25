@@ -38,9 +38,20 @@ export function getRecommended() {
   return marked.length > 0 ? marked : getAllProducts().slice(0, 3);
 }
 
-/** Ofertele săptămânii — selecție manuală, marcată cu `featured: true` în products.json. */
+/** Ofertele săptămânii — combină selecția manuală (`featured: true`) cu orice
+ *  produs care are reducere mai mare de 30% (intră automat, fără să-l marchezi
+ *  tu manual). Sortate descrescător după procentul de reducere, ca "hot deal"-urile
+ *  reale să apară mereu primele. */
 export function getFeatured() {
-  return getAllProducts().filter((p) => p.featured === true);
+  const all = getAllProducts();
+  const manual = all.filter((p) => p.featured === true);
+  const hotDeals = all.filter((p) => p.discount_percent != null && p.discount_percent > 30);
+
+  const merged = [...manual, ...hotDeals].filter(
+    (p, i, arr) => arr.findIndex((x) => x.id === p.id) === i
+  );
+
+  return merged.sort((a, b) => (b.discount_percent || 0) - (a.discount_percent || 0));
 }
 
 export function getOffers() {
