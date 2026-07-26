@@ -14,7 +14,8 @@ const {
 } = product;
 
 const isHotDeal = discount_percent != null && discount_percent > 30;
-const specChips = Object.entries(specs).slice(0, 3);
+const CHIP_KEYS = ["afisaj", "mecanism", "rezistenta_apa"];
+const specChips = CHIP_KEYS.filter(k => specs[k] != null).map(k => [k, specs[k]]);
 ---
 <a
   class="product-card"
