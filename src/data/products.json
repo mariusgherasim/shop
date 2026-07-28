@@ -343944,10 +343944,307 @@
     "offer_end": null,
     "currency": "RON",
     "availability": true,
-    "draft": true,
+    "draft": false,
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/293624/full/ceas-fossil-fossil-everett-fs6080set-705968.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/fossil/fossil-everett-fs6080set/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=ZvU8NRJ3W06k&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
+  },
+  {
+    "id": "28381",
+    "source_site": "benvenuti.com",
+    "brand": "Benvenuti",
+    "title": "Breloc femei Benvenuti",
+    "category": [
+      "cadouri-pentru-ea",
+      "modele-noi"
+    ],
+    "price": 24,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "recomandat": true,
+    "image_url": "https://www.benvenuti.com/img/products/benvenuti/extra//breloc-femei-benvenuti-72f6ed.png",
+    "official_url": "https://www.benvenuti.com/ro/benvenuti/breloc-femei-benvenuti",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=611ecaa22&aff_code=676a7e7d9&campaign_unique=9918fab64",
+    "specs": {
+      "stil": "casual",
+      "culoare": "Rosu",
+      "material": "Alte materiale"
+    }
+  },
+  {
+    "id": "30330",
+    "source_site": "benvenuti.com",
+    "brand": "Guess",
+    "title": "Mănuși femei Guess maro cu logo 916DMANPOL02M",
+    "category": [
+      "cadouri-pentru-ea",
+      "modele-noi"
+    ],
+    "price": 199,
+    "old_price": 279,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "recomandat": true,
+    "image_url": "https://www.benvenuti.com/img/products/guess/accesorii/manusi/manu-i-femei-guess-maro-cu-logo-91edmanpol02m-a60da6.png",
+    "official_url": "https://www.benvenuti.com/ro/guess/manu-i-femei-guess-maro-cu-logo-91edmanpol02m",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=c30676cf7&aff_code=676a7e7d9&campaign_unique=9918fab64",
+    "specs": {
+      "stil": "casual",
+      "culoare": "Maro",
+      "material": "Alte materiale"
+    }
+  },
+  {
+    "id": "28380",
+    "source_site": "benvenuti.com",
+    "brand": "Benvenuti",
+    "title": "Breloc barbati Benvenuti",
+    "category": [
+      "cadouri-pentru-el",
+      "modele-noi"
+    ],
+    "price": 15,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "recomandat": true,
+    "image_url": "https://www.benvenuti.com/img/products/benvenuti/extra//breloc-barbati-benvenuti-6828ec.png",
+    "official_url": "https://www.benvenuti.com/ro/benvenuti/breloc-barbati-benvenuti",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=97dfe8e7d&aff_code=676a7e7d9&campaign_unique=9918fab64",
+    "specs": {
+      "stil": "casual",
+      "culoare": "Rosu",
+      "material": "Alte materiale"
+    }
+  },
+  {
+    "id": "1495",
+    "source_site": "benvenuti.com",
+    "brand": "Benvenuti",
+    "title": "Set Cadou Bărbați Benvenuti maro cognac din piele 336bcadoubvn06co",
+    "category": [
+      "cadouri-pentru-el",
+      "modele-noi"
+    ],
+    "price": 249,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "recomandat": true,
+    "image_url": "https://www.benvenuti.com/img/products/benvenuti/cadouri/seturi-cadou-1/set-cadou-barbati-benvenuti-5-0f1c3b.png",
+    "official_url": "https://www.benvenuti.com/ro/benvenuti/set-cadou-barbati-benvenuti-5",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=2f566c1b4&aff_code=676a7e7d9&campaign_unique=9918fab64",
+    "specs": {
+      "culoare": "Cognac",
+      "material": "Piele naturală"
+    }
+  },
+  {
+    "id": "1132",
+    "source_site": "benvenuti.com",
+    "brand": "Benvenuti",
+    "title": "Set cadou bărbați Benvenuti maro din piele 336bcadoubvn06m",
+    "category": [
+      "cadouri-pentru-el",
+      "modele-noi"
+    ],
+    "price": 249,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "recomandat": true,
+    "image_url": "https://www.benvenuti.com/img/products/benvenuti/barbati/portmonee-1/set-cadou-barbati-benvenuti-4-9d43e3.png",
+    "official_url": "https://www.benvenuti.com/ro/benvenuti/set-cadou-barbati-benvenuti-4",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=2c414fd79&aff_code=676a7e7d9&campaign_unique=9918fab64",
+    "specs": {
+      "material": "Piele naturală",
+      "stil": "casual",
+      "culoare": "Maro"
+    }
+  },
+  {
+    "id": "24688",
+    "source_site": "benvenuti.com",
+    "brand": "Benvenuti",
+    "title": "Set cadou bărbați Benvenuti maro din piele 336bcadoubvn07m",
+    "category": [
+      "cadouri-pentru-el",
+      "modele-noi"
+    ],
+    "price": 249,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "recomandat": true,
+    "image_url": "https://www.benvenuti.com/img/products/benvenuti/cadouri/seturi-cadou-barbati/set-cadou-barbati-benvenuti-28-b78659.png",
+    "official_url": "https://www.benvenuti.com/ro/benvenuti/set-cadou-barbati-benvenuti-28",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=tnPSObNf7QpP&aff_code=676a7e7d9&campaign_unique=9918fab64",
+    "specs": {
+      "stil": "casual",
+      "culoare": "Maro",
+      "material": "Piele naturală"
+    }
+  },
+  {
+    "id": "9976",
+    "source_site": "benvenuti.com",
+    "brand": "Benvenuti",
+    "title": "Set cadou bărbați Benvenuti negru din piele 336bcadoubvn06n",
+    "category": [
+      "cadouri-pentru-el",
+      "modele-noi"
+    ],
+    "price": 249,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "recomandat": true,
+    "image_url": "https://www.benvenuti.com/img/products/benvenuti/barbati/seturi-cadou-barbati/set-cadou-barbati-benvenuti-20-690e12.jpg",
+    "official_url": "https://www.benvenuti.com/ro/benvenuti/set-cadou-barbati-benvenuti-20",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=74ee3f251&aff_code=676a7e7d9&campaign_unique=9918fab64",
+    "specs": {
+      "stil": "casual",
+      "culoare": "Negru",
+      "material": "Piele naturală"
+    }
+  },
+  {
+    "id": "14919",
+    "source_site": "benvenuti.com",
+    "brand": "Benvenuti",
+    "title": "Set cadou bărbați Benvenuti negru din piele 336bcadoubvn07n",
+    "category": [
+      "cadouri-pentru-el",
+      "modele-noi"
+    ],
+    "price": 249,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "recomandat": true,
+    "image_url": "https://www.benvenuti.com/img/products/benvenuti/cadouri/seturi-cadou-1/set-cadou-barbati-benvenuti-negru-din-piele-3369bcadou07n-f6dd13.png",
+    "official_url": "https://www.benvenuti.com/ro/benvenuti/set-cadou-barbati-benvenuti-negru-din-piele-3369bcadou07n",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=mG0BPubrK41R&aff_code=676a7e7d9&campaign_unique=9918fab64",
+    "specs": {
+      "stil": "casual",
+      "culoare": "Negru",
+      "material": "Piele naturală"
+    }
+  },
+  {
+    "id": "22082",
+    "source_site": "benvenuti.com",
+    "brand": "Luca di Gioia",
+    "title": "Set bărbați Luca di Gioia curea și portmoneu bleumarin din piele 336BCADOULG01BL",
+    "category": [
+      "cadouri-pentru-el",
+      "modele-noi"
+    ],
+    "price": 249,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "recomandat": true,
+    "image_url": "https://www.benvenuti.com/img/products/luca-di-gioia/cadouri/seturi-cadou-1/set-barba-i-luca-di-gioia-curea-i-portmoneu-bleumarin-din-piele-3362bcadoulg01bl-9d32e6.png",
+    "official_url": "https://www.benvenuti.com/ro/luca-di-gioia/set-barba-i-luca-di-gioia-curea-i-portmoneu-bleumarin-din-piele-3362bcadoulg01bl",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=e7aaca1f6&aff_code=676a7e7d9&campaign_unique=9918fab64",
+    "specs": {
+      "culoare": "Bleumarin",
+      "material": "Piele naturală",
+      "stil": "casual"
+    }
+  },
+  {
+    "id": "22174",
+    "source_site": "benvenuti.com",
+    "brand": "Luca di Gioia",
+    "title": "Set bărbați Luca di Gioia curea și portmoneu maro din piele 336BCADOULG01M",
+    "category": [
+      "cadouri-pentru-el",
+      "modele-noi"
+    ],
+    "price": 249,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "recomandat": true,
+    "image_url": "https://www.benvenuti.com/img/products/luca-di-gioia/cadouri/seturi-cadou-1/set-barba-i-luca-di-gioia-curea-i-portmoneu-maro-din-piele-3362bcadoulg01m-1b8714.png",
+    "official_url": "https://www.benvenuti.com/ro/luca-di-gioia/set-barba-i-luca-di-gioia-curea-i-portmoneu-maro-din-piele-3362bcadoulg01m",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=060c8e5d8&aff_code=676a7e7d9&campaign_unique=9918fab64",
+    "specs": {
+      "stil": "casual",
+      "material": "Piele naturală"
+    }
+  },
+  {
+    "id": "22175",
+    "source_site": "benvenuti.com",
+    "brand": "Luca di Gioia",
+    "title": "Set bărbați Luca di Gioia curea și portmoneu maro închis din piele 336BCADOULG01TDM",
+    "category": [
+      "cadouri-pentru-el",
+      "modele-noi"
+    ],
+    "price": 249,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "recomandat": true,
+    "image_url": "https://www.benvenuti.com/img/products/luca-di-gioia/cadouri/seturi-cadou-1/set-barba-i-luca-di-gioia-curea-i-portmoneu-maro-inchis-din-piele-3362bcadoulg01tdm-218edb.png",
+    "official_url": "https://www.benvenuti.com/ro/luca-di-gioia/set-barba-i-luca-di-gioia-curea-i-portmoneu-maro-inchis-din-piele-3362bcadoulg01tdm",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=5de2f2a2c&aff_code=676a7e7d9&campaign_unique=9918fab64",
+    "specs": {
+      "stil": "casual",
+      "material": "Piele naturală"
+    }
+  },
+  {
+    "id": "22083",
+    "source_site": "benvenuti.com",
+    "brand": "Luca di Gioia",
+    "title": "Set bărbați Luca di Gioia curea și portmoneu negru din piele 336BCADOULG01N",
+    "category": [
+      "cadouri-pentru-el",
+      "modele-noi"
+    ],
+    "price": 249,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "recomandat": true,
+    "image_url": "https://www.benvenuti.com/img/products/luca-di-gioia/cadouri/seturi-cadou-1/set-barba-i-luca-di-gioia-curea-i-portmoneu-negru-din-piele-3362bcadoulg01n-01a488.png",
+    "official_url": "https://www.benvenuti.com/ro/luca-di-gioia/set-barba-i-luca-di-gioia-curea-i-portmoneu-negru-din-piele-3362bcadoulg01n",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=69865b2a0&aff_code=676a7e7d9&campaign_unique=9918fab64",
+    "specs": {
+      "culoare": "Negru",
+      "material": "Piele naturală",
+      "stil": "casual"
+    }
   }
 ]
