@@ -90,7 +90,15 @@ const LABELS: Record<string, string> = {
     return Math.abs(hash);
   }
 
+  function isActive(b: any): boolean {
+    const today = new Date().toISOString().slice(0, 10);
+    if (b.valid_from && today < b.valid_from) return false;
+    if (b.valid_until && today > b.valid_until) return false;
+    return true;
+  }
+
   function matchesVariant(b: any, variant: string): boolean {
+    if (!isActive(b)) return false;
     if (!b.channels || !b.channels.includes("site")) return false;
     if (variant === "hero") return b.width >= 380 && b.width / b.height >= 1.8;
     if (variant === "rectangle") return b.width === 300 && b.height === 250;
@@ -107,8 +115,6 @@ const LABELS: Record<string, string> = {
       console.warn("Nu am putut încărca banners.json", e);
       return;
     }
-
-    const today = new Date().toISOString().slice(0, 10); // ex. "2026-07-19"
 
     document.querySelectorAll<HTMLElement>(".banner-slot").forEach((slot) => {
       const variant = slot.dataset.variant || "";
