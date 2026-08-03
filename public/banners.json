@@ -10,7 +10,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -23,7 +25,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -36,7 +40,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -48,7 +54,9 @@
     "category": "rectangle-300x250",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -61,7 +69,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -74,7 +84,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -86,7 +98,9 @@
     "category": "skyscraper-300x600",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -98,7 +112,9 @@
     "category": "rectangle-300x250",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -111,7 +127,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -124,7 +142,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -136,7 +156,9 @@
     "category": "skyscraper-300x600",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -148,7 +170,9 @@
     "category": "rectangle-300x250",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -161,7 +185,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -173,7 +199,9 @@
     "category": "rectangle-300x250",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -185,7 +213,9 @@
     "category": "other",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -199,7 +229,9 @@
       "site",
       "facebook",
       "instagram"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -211,7 +243,9 @@
     "category": "wide-strip",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -223,7 +257,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -234,7 +270,9 @@
     "unique": "74c85010c",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -247,7 +285,9 @@
       "site",
       "facebook",
       "instagram"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -259,7 +299,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -271,7 +313,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -282,7 +326,9 @@
     "unique": "954cdb9fd",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -294,7 +340,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -303,7 +351,9 @@
     "width": 160,
     "height": 600,
     "unique": "437d9501a",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -312,7 +362,9 @@
     "width": 120,
     "height": 600,
     "unique": "fa07739dd",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -321,7 +373,9 @@
     "width": 120,
     "height": 600,
     "unique": "f68d97b27",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -330,7 +384,9 @@
     "width": 160,
     "height": 600,
     "unique": "c4e6f5b18",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -342,7 +398,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -355,7 +413,9 @@
       "site",
       "facebook",
       "instagram"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -367,7 +427,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -376,7 +438,9 @@
     "width": 160,
     "height": 600,
     "unique": "f1467b00d",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -388,7 +452,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -399,7 +465,9 @@
     "unique": "0a1369e59",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -408,7 +476,9 @@
     "width": 120,
     "height": 600,
     "unique": "f03d5fa06",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -421,7 +491,9 @@
       "site",
       "facebook",
       "instagram"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -433,7 +505,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -445,7 +519,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -454,7 +530,9 @@
     "width": 160,
     "height": 600,
     "unique": "4067c80ba",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -463,7 +541,9 @@
     "width": 120,
     "height": 600,
     "unique": "751d4c3f8",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -475,7 +555,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -484,7 +566,9 @@
     "width": 120,
     "height": 600,
     "unique": "8d59e1afe",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -496,7 +580,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -508,7 +594,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -519,7 +607,9 @@
     "unique": "6f5625f98",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -531,7 +621,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -540,7 +632,9 @@
     "width": 120,
     "height": 600,
     "unique": "a1ebfb65c",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -549,7 +643,9 @@
     "width": 160,
     "height": 600,
     "unique": "5d59b8555",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -561,7 +657,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -573,7 +671,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -584,7 +684,9 @@
     "unique": "87da95c36",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -595,7 +697,9 @@
     "unique": "db5121549",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -604,7 +708,9 @@
     "width": 120,
     "height": 600,
     "unique": "b68801a71",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -616,7 +722,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -628,7 +736,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -637,7 +747,9 @@
     "width": 160,
     "height": 600,
     "unique": "c8754af1e",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -649,7 +761,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -661,7 +775,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -670,7 +786,9 @@
     "width": 120,
     "height": 600,
     "unique": "b6cf67e90",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -681,7 +799,9 @@
     "unique": "ad80bd3d2",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -690,7 +810,9 @@
     "width": 160,
     "height": 600,
     "unique": "e7d1825fa",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -699,7 +821,9 @@
     "width": 120,
     "height": 600,
     "unique": "b334f4ea8",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -711,7 +835,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -723,7 +849,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -732,7 +860,9 @@
     "width": 160,
     "height": 600,
     "unique": "4d6c96cf9",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -743,7 +873,9 @@
     "unique": "adca02a6a",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -755,7 +887,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -768,7 +902,9 @@
       "site",
       "facebook",
       "instagram"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -779,7 +915,9 @@
     "unique": "fd7faf1d3",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -788,7 +926,9 @@
     "width": 120,
     "height": 600,
     "unique": "7043356a5",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -800,7 +940,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -809,7 +951,9 @@
     "width": 160,
     "height": 600,
     "unique": "f31bf5516",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -821,7 +965,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -834,7 +980,9 @@
       "site",
       "facebook",
       "instagram"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -846,7 +994,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -855,7 +1005,9 @@
     "width": 160,
     "height": 600,
     "unique": "4a3f03cf7",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -867,7 +1019,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -879,7 +1033,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -890,7 +1046,9 @@
     "unique": "3214f12e0",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -902,7 +1060,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -914,7 +1074,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -923,7 +1085,9 @@
     "width": 120,
     "height": 600,
     "unique": "11bb66d24",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -932,7 +1096,9 @@
     "width": 160,
     "height": 600,
     "unique": "46d6a9ee5",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -941,7 +1107,9 @@
     "width": 120,
     "height": 600,
     "unique": "9585cbe14",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -950,7 +1118,9 @@
     "width": 160,
     "height": 600,
     "unique": "3eac58a9b",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -962,7 +1132,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -974,7 +1146,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -985,7 +1159,9 @@
     "unique": "a0a6e7371",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -998,7 +1174,9 @@
       "site",
       "facebook",
       "instagram"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1010,7 +1188,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1021,7 +1201,9 @@
     "unique": "a763fd5af",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1030,7 +1212,9 @@
     "width": 160,
     "height": 600,
     "unique": "b768564e6",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1042,7 +1226,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1051,7 +1237,9 @@
     "width": 120,
     "height": 600,
     "unique": "b90633f71",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1063,7 +1251,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1075,7 +1265,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1086,7 +1278,9 @@
     "unique": "3ef758b8e",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1098,7 +1292,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1107,7 +1303,9 @@
     "width": 160,
     "height": 600,
     "unique": "60dae1beb",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1116,7 +1314,9 @@
     "width": 120,
     "height": 600,
     "unique": "51eb846e0",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1125,7 +1325,9 @@
     "width": 120,
     "height": 600,
     "unique": "c0309564e",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1137,7 +1339,9 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1146,7 +1350,9 @@
     "width": 160,
     "height": 600,
     "unique": "ae9949f66",
-    "channels": []
+    "channels": [],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1157,7 +1363,9 @@
     "unique": "44d04f92b",
     "channels": [
       "site"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1169,6 +1377,8 @@
     "channels": [
       "site",
       "email"
-    ]
+    ],
+    "valid_from": "2026-07-01",
+    "valid_until": "2026-07-31"
   }
 ]
