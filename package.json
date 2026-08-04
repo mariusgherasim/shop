@@ -16,6 +16,8 @@
     "cheerio": "^1.2.0",
     "csv-parse": "^7.0.1",
     "fast-xml-parser": "^5.10.0",
-    "playwright": "^1.61.1"
+    "playwright": "^1.61.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }

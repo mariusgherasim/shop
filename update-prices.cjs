@@ -1,7 +1,9 @@
 const fs = require("fs");
 const axios = require("axios");
 const cheerio = require("cheerio");
-const { chromium } = require("playwright");
+const { chromium } = require("playwright-extra");
+const StealthPlugin = require("puppeteer-extra-plugin-stealth");
+chromium.use(StealthPlugin());
 
 const IMG_PROXY = "https://img-proxy.gherasimmarius75.workers.dev/?url=";
 const PRODUCTS_PATH = "src/data/products.json";
@@ -109,6 +111,18 @@ async function updateWatchshop(product, browser) {
     userAgent:
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
     locale: "ro-RO",
+    extraHTTPHeaders: {
+      "Accept-Language": "ro-RO,ro;q=0.9,en-US;q=0.8,en;q=0.7",
+    },
+    viewport: { width: 1366, height: 768 },
+  });
+
+  // Maschează proprietățile care trădează Playwright
+  await context.addInitScript(() => {
+    Object.defineProperty(navigator, "webdriver", { get: () => undefined });
+    Object.defineProperty(navigator, "plugins", { get: () => [1, 2, 3] });
+    Object.defineProperty(navigator, "languages", { get: () => ["ro-RO", "ro", "en-US"] });
+    window.chrome = { runtime: {} };
   });
   const page = await context.newPage();
 
@@ -203,7 +217,14 @@ async function updatePrices() {
   const hasWatchshop = toProcess.some(p => p.source_site === "watchshop.ro");
   if (hasWatchshop) {
     console.log("🌐 Pornesc Chromium pentru watchshop.ro...");
-    browser = await chromium.launch({ headless: true });
+    browser = await chromium.launch({
+      headless: true,
+      args: [
+        "--disable-blink-features=AutomationControlled",
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+      ],
+    });
   }
 
   const deactivated = [];
