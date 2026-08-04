@@ -97,6 +97,7 @@ const WATCHSHOP_PRICE_SELECTORS = [
   ".price-value",
 ];
 const WATCHSHOP_OLD_PRICE_SELECTORS = [
+  "p.old_price del",        // confirmat din markup real (august 2026)
   ".price-box .price-value-old",
   ".price-box .old-price-value",
   ".price-box del",
