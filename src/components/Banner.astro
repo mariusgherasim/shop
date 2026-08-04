@@ -1,16 +1,4 @@
 ---
-// Banner.astro — afișează un banner de afiliere (watchshop.ro / 2Performant),
-// ales automat, rotativ zilnic, dintr-un slot de dimensiune predefinit.
-//
-// Utilizare:
-//   <Banner variant="hero" />
-//   <Banner variant="rectangle" />
-//   <Banner variant="square" />
-//
-// Logica de alegere rulează în browser (vezi <script> mai jos), pe baza
-// datei curente ca "sămânță" — toți vizitatorii văd același banner într-o
-// zi, iar el se schimbă automat la miezul nopții, fără rebuild.
-
 export interface Props {
   variant: "hero" | "rectangle" | "square";
 }
@@ -74,14 +62,12 @@ const LABELS: Record<string, string> = {
     font-size: 11px;
     color: #8a7f66;
   }
-  /* Ascunde slotul complet dacă nu s-a găsit niciun banner potrivit */
   .banner-slot[data-empty="true"] {
     display: none;
   }
 </style>
 
 <script>
-  // Rulează o singură dată per slot, la încărcarea paginii.
   function hashSeed(str: string): number {
     let hash = 0;
     for (let i = 0; i < str.length; i++) {
@@ -107,6 +93,7 @@ const LABELS: Record<string, string> = {
   }
 
   async function initBanners() {
+    const today = new Date().toISOString().slice(0, 10);
     let banners: any[] = [];
     try {
       const res = await fetch("/banners.json");
