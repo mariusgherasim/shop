@@ -114,7 +114,7 @@ async function updateWatchshop(product, browser) {
 
   try {
     await Promise.race([
-      page.goto(product.official_url, { waitUntil: "networkidle", timeout: 30000 }),
+      page.goto(product.official_url, { waitUntil: "domcontentloaded", timeout: 30000 }),
       new Promise((_, reject) => setTimeout(() => reject(new Error("Timeout 35s")), 35000)),
     ]);
 
