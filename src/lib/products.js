@@ -55,7 +55,9 @@ export function getFeatured() {
 }
 
 export function getOffers() {
-  return getAllProducts().filter((p) => p.offerActive || p.discount_percent);
+  return getAllProducts()
+    .filter((p) => p.offerActive || p.discount_percent)
+    .sort((a, b) => (b.discount_percent || 0) - (a.discount_percent || 0));
 }
 
 export function getProductById(id) {
