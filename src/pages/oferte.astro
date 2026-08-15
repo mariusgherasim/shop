@@ -1,0 +1,287 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const PRICE_RANGES = [
+  { label: "Orice preț", min: 0, max: Infinity },
+  { label: "0 - 250 lei", min: 0, max: 250 },
+  { label: "251 - 500 lei", min: 251, max: 500 },
+  { label: "501 - 750 lei", min: 501, max: 750 },
+  { label: "751 - 1000 lei", min: 751, max: 1000 },
+  { label: "1001 - 1500 lei", min: 1001, max: 1500 },
+  { label: "1501 - 2000 lei", min: 1501, max: 2000 },
+  { label: "2001 - 3000 lei", min: 2001, max: 3000 },
+  { label: "Peste 3000 lei", min: 3001, max: Infinity },
+];
+---
+<Layout title="Oferte active — shop.gherasimmarius">
+  <div class="container" style="padding: 2rem 0;">
+    <div class="section-head">
+      <h1 style="font-family: var(--font-display);">Oferte active</h1>
+    </div>
+
+    <a href="/gravura-personalizata" class="gravura-banner">
+      <div>
+        <span class="eyebrow">Serviciu WatchShop.ro</span>
+        <h3 style="margin: 0.2rem 0 0.2rem; font-family: var(--font-display);">Gravură personalizată — de la 100 Lei</h3>
+        <p style="margin: 0; color: var(--color-steel);">Numele lui, data voastră, un mesaj de iubire — gravat pe capacul ceasului.</p>
+      </div>
+      <span class="price-btn">Vezi detalii →</span>
+    </a>
+
+    <div class="offers-filters">
+      <div class="filter-search">
+        <input type="text" id="filter-search" placeholder="Caută după titlu sau brand..." />
+      </div>
+
+      <div class="filter-chips" id="filter-category">
+        <button class="filter-chip active" data-category="all">Toate</button>
+        <button class="filter-chip" data-category="ceasuri">Ceasuri</button>
+        <button class="filter-chip" data-category="ochelari-de-soare">Ochelari de soare</button>
+      </div>
+
+      <div class="filter-row">
+        <select id="filter-brand">
+          <option value="all">Toate brandurile</option>
+        </select>
+
+        <select id="filter-discount">
+          <option value="0">Orice reducere</option>
+          <option value="10">10%+ reducere</option>
+          <option value="25">25%+ reducere</option>
+          <option value="50">50%+ reducere</option>
+        </select>
+
+        <select id="filter-price">
+          {PRICE_RANGES.map((r, i) => <option value={i}>{r.label}</option>)}
+        </select>
+      </div>
+    </div>
+
+    <div class="offers-count" id="offers-count"></div>
+    <div class="product-grid" id="offers-grid"></div>
+    <p class="offers-empty" id="offers-empty" style="display:none;">Niciun produs nu corespunde filtrelor alese — încearcă să lărgești selecția.</p>
+  </div>
+</Layout>
+
+<style>
+  /* Doar stilurile pentru bara de filtre — cardurile de produs folosesc
+     exact clasele globale existente (.product-card, .thumb, .body etc.
+     din ProductCard.astro), fără CSS suplimentar aici. */
+  .offers-filters {
+    background: var(--color-surface, #fff);
+    border: 1px solid var(--color-border, #e6ddc9);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1.5rem 0;
+  }
+  .filter-search input {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid var(--color-border, #e6ddc9);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+    box-sizing: border-box;
+  }
+  .filter-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .filter-chips .filter-chip {
+    cursor: pointer;
+    border: 1px solid var(--color-border, #e6ddc9);
+    background: transparent;
+    font-family: inherit;
+  }
+  .filter-chips .filter-chip.active {
+    background: var(--color-ink, #0B1F4A);
+    color: var(--color-accent, #C89B3C);
+    border-color: var(--color-ink, #0B1F4A);
+  }
+  .filter-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 0.6rem;
+  }
+  .filter-row select {
+    padding: 0.55rem 0.6rem;
+    border: 1px solid var(--color-border, #e6ddc9);
+    border-radius: 8px;
+    font-size: 0.85rem;
+  }
+  .offers-count {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--color-steel, #8a7f66);
+    margin-bottom: 0.75rem;
+  }
+  .offers-empty {
+    color: var(--color-steel, #8a7f66);
+    padding: 2rem 0;
+    text-align: center;
+  }
+</style>
+
+<script>
+  const PRICE_RANGES = [
+    { label: "Orice preț", min: 0, max: Infinity },
+    { label: "0 - 250 lei", min: 0, max: 250 },
+    { label: "251 - 500 lei", min: 251, max: 500 },
+    { label: "501 - 750 lei", min: 501, max: 750 },
+    { label: "751 - 1000 lei", min: 751, max: 1000 },
+    { label: "1001 - 1500 lei", min: 1001, max: 1500 },
+    { label: "1501 - 2000 lei", min: 1501, max: 2000 },
+    { label: "2001 - 3000 lei", min: 2001, max: 3000 },
+    { label: "Peste 3000 lei", min: 3001, max: Infinity },
+  ];
+
+  const CHIP_KEYS = ["afisaj", "mecanism", "rezistenta_apa"];
+
+  let allOffers = [];
+  let state = { search: "", category: "all", brand: "all", minDiscount: 0, priceRangeIndex: 0 };
+
+  function normalize(str) {
+    return (str || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  }
+
+  function populateBrands(offers) {
+    const brands = [...new Set(offers.map((o) => o.brand).filter(Boolean))].sort();
+    const select = document.getElementById("filter-brand");
+    for (const b of brands) {
+      const opt = document.createElement("option");
+      opt.value = b;
+      opt.textContent = b;
+      select.appendChild(opt);
+    }
+  }
+
+  function applyFilters() {
+    const range = PRICE_RANGES[state.priceRangeIndex];
+    const searchTerm = normalize(state.search);
+
+    const filtered = allOffers.filter((o) => {
+      if (state.category !== "all" && !o.category.includes(state.category)) return false;
+      if (state.brand !== "all" && o.brand !== state.brand) return false;
+      if ((o.discount_percent || 0) < state.minDiscount) return false;
+      if (o.price < range.min || o.price > range.max) return false;
+      if (searchTerm) {
+        const haystack = normalize(o.title) + " " + normalize(o.brand);
+        if (!haystack.includes(searchTerm)) return false;
+      }
+      return true;
+    });
+
+    render(filtered);
+  }
+
+  // Reproduce exact markup-ul din ProductCard.astro, ca fiecare card din
+  // /oferte să fie identic vizual cu cele de pe homepage.
+  function renderCard(p) {
+    const isHotDeal = p.discount_percent != null && p.discount_percent > 30;
+    const specs = p.specs || {};
+    const specChips = CHIP_KEYS.filter((k) => specs[k] != null).map((k) => specs[k]);
+
+    const hotDealBadge = isHotDeal ? `
+      <span class="hot-deal-badge" aria-label="Hot Deal">
+        <svg viewBox="0 0 56 64" width="56" height="64" xmlns="http://www.w3.org/2000/svg">
+          <path d="M28 2 C18 14 10 20 12 34 C14 46 22 54 28 58 C34 54 42 46 44 34 C46 20 38 14 28 2Z" fill="#E8492C"/>
+          <path d="M28 16 C22 24 20 30 22 38 C24 44 26 48 28 52 C30 48 32 44 34 38 C36 30 34 24 28 16Z" fill="#F7A034"/>
+          <text x="28" y="36" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="8" font-weight="900" fill="#fff" letter-spacing="0.5">HOT</text>
+          <text x="28" y="46" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="7" font-weight="900" fill="#fff" letter-spacing="0.5">DEAL</text>
+        </svg>
+      </span>` : "";
+
+    const seal = p.discount_percent ? `<span class="seal">-${p.discount_percent}%</span>` : "";
+    const brandEl = p.brand ? `<span class="brand">${p.brand}</span>` : "";
+    const specPlate = specChips.length > 0
+      ? `<div class="spec-plate">${specChips.map((v) => `<span>${v}</span>`).join("")}</div>`
+      : "";
+    const oldPrice = p.old_price ? `<span class="old-price">${p.old_price.toFixed(2)} Lei</span>` : "";
+    const offerEnd = p.offerActive && p.offer_end
+      ? `<span class="offer-end" data-countdown="${p.offer_end}">Calculăm timpul rămas...</span>`
+      : "";
+    const currency = p.currency || "RON";
+
+    return `
+      <a class="product-card" href="${p.affiliate_url}" target="_blank" rel="sponsored nofollow noopener" aria-label="${p.title} — vezi oferta, ${p.price} ${currency}" data-product-id="${p.id}" data-brand="${p.brand || ''}" data-title="${p.title}" data-price="${p.price}">
+        ${hotDealBadge}
+        ${seal}
+        <div class="thumb">
+          <img src="${p.image_url}" alt="${p.title}" loading="lazy" referrerpolicy="no-referrer" />
+        </div>
+        <div class="body">
+          ${brandEl}
+          <h3>${p.title}</h3>
+          ${specPlate}
+          <div class="price-row">
+            ${oldPrice}
+            <span class="price-btn">${p.price.toFixed(2)} Lei</span>
+          </div>
+          ${offerEnd}
+        </div>
+      </a>`;
+  }
+
+  function render(offers) {
+    const grid = document.getElementById("offers-grid");
+    const empty = document.getElementById("offers-empty");
+    const count = document.getElementById("offers-count");
+
+    count.textContent = `${offers.length} rezultate`;
+
+    if (offers.length === 0) {
+      grid.innerHTML = "";
+      empty.style.display = "block";
+      return;
+    }
+    empty.style.display = "none";
+    grid.innerHTML = offers.map(renderCard).join("");
+  }
+
+  async function init() {
+    try {
+      const res = await fetch("/offers-index.json");
+      allOffers = await res.json();
+    } catch (e) {
+      console.warn("Nu am putut încărca offers-index.json", e);
+      return;
+    }
+
+    populateBrands(allOffers);
+    render(allOffers);
+
+    document.getElementById("filter-search").addEventListener("input", (e) => {
+      state.search = e.target.value;
+      applyFilters();
+    });
+
+    document.querySelectorAll(".filter-chip").forEach((chip) => {
+      chip.addEventListener("click", () => {
+        document.querySelectorAll(".filter-chip").forEach((c) => c.classList.remove("active"));
+        chip.classList.add("active");
+        state.category = chip.dataset.category;
+        applyFilters();
+      });
+    });
+
+    document.getElementById("filter-brand").addEventListener("change", (e) => {
+      state.brand = e.target.value;
+      applyFilters();
+    });
+
+    document.getElementById("filter-discount").addEventListener("change", (e) => {
+      state.minDiscount = Number(e.target.value);
+      applyFilters();
+    });
+
+    document.getElementById("filter-price").addEventListener("change", (e) => {
+      state.priceRangeIndex = Number(e.target.value);
+      applyFilters();
+    });
+  }
+
+  init();
+</script>
