@@ -64,6 +64,28 @@ export function getProductById(id) {
   return getAllProducts().find((p) => p.id === id);
 }
 
+/** Index de date pentru pagina /oferte — folosit de filtrele live (căutare,
+ *  categorie, brand, reducere minimă, interval de preț). Păstrează aceeași
+ *  sortare descrescătoare după discount ca getOffers(), ca fallback dacă
+ *  utilizatorul nu schimbă sortarea din UI. */
+export function getOffersIndex() {
+  return getOffers().map((p) => ({
+    id: p.id,
+    title: p.title,
+    brand: p.brand,
+    category: p.category,
+    price: p.price,
+    old_price: p.old_price,
+    discount_percent: p.discount_percent,
+    currency: p.currency,
+    image_url: p.image_url,
+    affiliate_url: p.affiliate_url,
+    specs: p.specs || {},
+    offerActive: p.offerActive,
+    offer_end: p.offer_end,
+  }));
+}
+
 /** Very small client-side search index: id, title, brand, category. */
 export function getSearchIndex() {
   return getAllProducts().map((p) => ({
