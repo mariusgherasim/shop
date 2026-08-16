@@ -9,6 +9,7 @@ const {
   products: productsProp, // array simplu — pentru colecții mici, fără paginare (ex: Oferta săptămânii)
   emptyTitle = 'În curând',
   emptyText = 'Adăugăm produse noi în această colecție în curând.',
+  image,
 } = Astro.props;
 
 const products = page ? page.data : (productsProp || []);
@@ -16,7 +17,7 @@ const currentPage = page ? page.currentPage : 1;
 const lastPage = page ? page.lastPage : 1;
 const url = page ? page.url : {};
 ---
-<Layout current={current} title={`${title} — shop.gherasimmarius`}>
+<Layout current={current} title={`${title} — shop.gherasimmarius`} ogImage={image}>
   <div class="container section">
     <div class="section-head">
       <h2>{title}</h2>
