@@ -1,36 +1,6 @@
 [
   {
     "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=c5617709a&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/222134/original/222134.jpg",
-    "width": 768,
-    "height": 220,
-    "unique": "c5617709a",
-    "category": "leaderboard-hero",
-    "channels": [
-      "site",
-      "email"
-    ],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=dd9d4c3bd&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/222132/original/222132.jpg",
-    "width": 681,
-    "height": 351,
-    "unique": "dd9d4c3bd",
-    "category": "wide-strip",
-    "channels": [
-      "site",
-      "email"
-    ],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
     "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=c9f06f7f6&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/222131/original/222131.jpg",
     "width": 676,
@@ -42,7 +12,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -56,22 +26,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=8086c7ea5&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/222125/original/222125.jpg",
-    "width": 676,
-    "height": 313,
-    "unique": "8086c7ea5",
-    "category": "wide-strip",
-    "channels": [
-      "site",
-      "email"
-    ],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -86,7 +41,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -114,22 +69,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=9a20860a2&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/222120/original/222120.jpg",
-    "width": 898,
-    "height": 351,
-    "unique": "9a20860a2",
-    "category": "leaderboard-hero",
-    "channels": [
-      "site",
-      "email"
-    ],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -144,7 +84,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -158,7 +98,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -172,7 +112,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -187,7 +127,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -201,7 +141,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -215,37 +155,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=c60d0acc8&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/220276/original/220276.png",
-    "width": 500,
-    "height": 500,
-    "unique": "c60d0acc8",
-    "category": "square",
-    "channels": [
-      "site",
-      "facebook",
-      "instagram"
-    ],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=a3163b2e0&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/220274/original/220274.png",
-    "width": 1200,
-    "height": 628,
-    "unique": "a3163b2e0",
-    "category": "wide-strip",
-    "channels": [
-      "site"
-    ],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -259,7 +169,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -272,36 +182,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=099fcd05c&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/220234/original/220234.jpg",
-    "width": 500,
-    "height": 500,
-    "unique": "099fcd05c",
-    "channels": [
-      "site",
-      "facebook",
-      "instagram"
-    ],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=48dc6a8f2&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/220233/original/220233.jpg",
-    "width": 600,
-    "height": 314,
-    "unique": "48dc6a8f2",
-    "channels": [
-      "site",
-      "email"
-    ],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -315,7 +196,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -328,7 +209,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -342,7 +223,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -353,18 +234,7 @@
     "unique": "437d9501a",
     "channels": [],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=fa07739dd&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/220235/original/220235.jpg",
-    "width": 120,
-    "height": 600,
-    "unique": "fa07739dd",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -375,7 +245,7 @@
     "unique": "f68d97b27",
     "channels": [],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -386,36 +256,7 @@
     "unique": "c4e6f5b18",
     "channels": [],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=427382674&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/218372/original/218372.png",
-    "width": 600,
-    "height": 314,
-    "unique": "427382674",
-    "channels": [
-      "site",
-      "email"
-    ],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=96032e3d0&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/218371/original/218371.png",
-    "width": 500,
-    "height": 500,
-    "unique": "96032e3d0",
-    "channels": [
-      "site",
-      "facebook",
-      "instagram"
-    ],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -429,19 +270,8 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=f1467b00d&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/216276/original/216276.png",
-    "width": 160,
-    "height": 600,
-    "unique": "f1467b00d",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
+    "valid_until": "2026-12-31"
+  },      
   {
     "source_site": "watchshop.ro",
     "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=3cc55e252&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
@@ -454,7 +284,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -467,33 +297,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=f03d5fa06&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/216273/original/216273.png",
-    "width": 120,
-    "height": 600,
-    "unique": "f03d5fa06",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=b5d65d25e&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/216272/original/216272.png",
-    "width": 500,
-    "height": 500,
-    "unique": "b5d65d25e",
-    "channels": [
-      "site",
-      "facebook",
-      "instagram"
-    ],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -507,7 +311,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -521,7 +325,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -532,7 +336,7 @@
     "unique": "4067c80ba",
     "channels": [],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -543,7 +347,7 @@
     "unique": "751d4c3f8",
     "channels": [],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -557,18 +361,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=8d59e1afe&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/212101/original/212101.png",
-    "width": 120,
-    "height": 600,
-    "unique": "8d59e1afe",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -582,7 +375,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -596,7 +389,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -609,7 +402,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -623,18 +416,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=a1ebfb65c&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/212060/original/212060.png",
-    "width": 120,
-    "height": 600,
-    "unique": "a1ebfb65c",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -645,7 +427,7 @@
     "unique": "5d59b8555",
     "channels": [],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -659,7 +441,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -673,7 +455,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -686,7 +468,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -699,18 +481,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=b68801a71&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/211763/original/211763.png",
-    "width": 120,
-    "height": 600,
-    "unique": "b68801a71",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -724,7 +495,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -738,18 +509,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=c8754af1e&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/211759/original/211759.png",
-    "width": 160,
-    "height": 600,
-    "unique": "c8754af1e",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -763,7 +523,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -777,18 +537,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=b6cf67e90&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/210227/original/210227.png",
-    "width": 120,
-    "height": 600,
-    "unique": "b6cf67e90",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -801,18 +550,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=e7d1825fa&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/210225/original/210225.png",
-    "width": 160,
-    "height": 600,
-    "unique": "e7d1825fa",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -823,7 +561,7 @@
     "unique": "b334f4ea8",
     "channels": [],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -837,7 +575,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -851,18 +589,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=4d6c96cf9&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/210219/original/210219.png",
-    "width": 160,
-    "height": 600,
-    "unique": "4d6c96cf9",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -875,7 +602,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -889,7 +616,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -904,7 +631,7 @@
       "instagram"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -917,18 +644,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=7043356a5&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/210214/original/210214.png",
-    "width": 120,
-    "height": 600,
-    "unique": "7043356a5",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -942,18 +658,18 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
     "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=f31bf5516&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/210212/original/210212.png",
+    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/196737/original/196737.png",
     "width": 160,
     "height": 600,
     "unique": "f31bf5516",
     "channels": [],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -967,7 +683,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -982,7 +698,7 @@
       "instagram"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -996,18 +712,18 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
     "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=4a3f03cf7&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/208943/original/208943.png",
+    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/196738/original/196738.png",
     "width": 160,
     "height": 600,
     "unique": "4a3f03cf7",
     "channels": [],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1021,7 +737,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1035,7 +751,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1048,79 +764,29 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=4b295adb5&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/196738/original/196738.png",
-    "width": 300,
-    "height": 50,
-    "unique": "4b295adb5",
-    "channels": [
-      "site",
-      "email"
-    ],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=717058a64&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/196737/original/196737.png",
-    "width": 320,
-    "height": 100,
-    "unique": "717058a64",
-    "channels": [
-      "site",
-      "email"
-    ],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=11bb66d24&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/196736/original/196736.png",
-    "width": 120,
-    "height": 600,
-    "unique": "11bb66d24",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=46d6a9ee5&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/196734/original/196734.png",
-    "width": 160,
-    "height": 600,
-    "unique": "46d6a9ee5",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
     "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=9585cbe14&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/195723/original/195723.png",
+    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/191577/original/191577.png",
     "width": 120,
     "height": 600,
     "unique": "9585cbe14",
     "channels": [],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
     "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=3eac58a9b&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/195722/original/195722.png",
+    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/191579/original/191579.png",
     "width": 160,
     "height": 600,
     "unique": "3eac58a9b",
     "channels": [],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1134,7 +800,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1148,7 +814,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1161,7 +827,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1176,7 +842,7 @@
       "instagram"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1190,7 +856,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1203,57 +869,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=b768564e6&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/191580/original/191580.png",
-    "width": 160,
-    "height": 600,
-    "unique": "b768564e6",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=fa2a46be2&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/191579/original/191579.png",
-    "width": 320,
-    "height": 100,
-    "unique": "fa2a46be2",
-    "channels": [
-      "site",
-      "email"
-    ],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=b90633f71&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/191578/original/191578.png",
-    "width": 120,
-    "height": 600,
-    "unique": "b90633f71",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=08c64a8f8&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/191577/original/191577.png",
-    "width": 300,
-    "height": 50,
-    "unique": "08c64a8f8",
-    "channels": [
-      "site",
-      "email"
-    ],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1267,7 +883,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1280,7 +896,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1294,40 +910,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=60dae1beb&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/189849/original/189849.png",
-    "width": 160,
-    "height": 600,
-    "unique": "60dae1beb",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=51eb846e0&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/189848/original/189848.png",
-    "width": 120,
-    "height": 600,
-    "unique": "51eb846e0",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=c0309564e&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/188255/original/188255.png",
-    "width": 120,
-    "height": 600,
-    "unique": "c0309564e",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1341,18 +924,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
-  },
-  {
-    "source_site": "watchshop.ro",
-    "click_url": "https://event.2performant.com/events/click?ad_type=banner&unique=ae9949f66&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "image_url": "https://img.2performant.com/system/paperclip/banner_pictures/pics/188253/original/188253.png",
-    "width": 160,
-    "height": 600,
-    "unique": "ae9949f66",
-    "channels": [],
-    "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1365,7 +937,7 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1379,7 +951,7 @@
       "email"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-07-31"
+    "valid_until": "2026-12-31"
   },
   {
     "source_site": "watchshop.ro",
@@ -1392,6 +964,6 @@
       "site"
     ],
     "valid_from": "2026-07-01",
-    "valid_until": "2026-09-30"
+    "valid_until": "2026-12-31"
   }
 ]
