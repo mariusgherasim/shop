@@ -413163,44 +413163,6 @@
     "specs": {}
   },
   {
-    "id": "csh-89151",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Lige",
-    "title": "Ceas Bărbați Lige 89151 Argintiu-Negru - Design Business, Funcții Multiple, Rezistent la Șocuri, Rezistent la Apă 3ATM",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 149.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbati-lige-89151-argintiu-negru-design-business-functii-multiple-rezistent-la-socuri-rezistent-la-apa-3atm-458140.jpeg",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbati-lige-89151-argintiu-negru-design-business-functii-multiple-rezistent-la-socuri-rezistent-la-apa-3atm.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=d3xjGQ4t0UE4&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
-    "id": "csh-89153",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Lige",
-    "title": "Ceas Bărbați Lige 89153 Argintiu-Verde - Design Business, Funcții Multiple, Afișaj Luminos, Rezistent la Apă 3ATM",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 129.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbati-lige-89153-argintiu-verde-design-business-functii-multiple-afisaj-luminos-rezistent-la-apa-3atm-142061.jpeg",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbati-lige-89153-argintiu-verde-design-business-functii-multiple-afisaj-luminos-rezistent-la-apa-3atm.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=qGqrSHYkC1Nd&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
     "id": "89160",
     "source_site": "ceasuri-shop.ro",
     "brand": "Lige",
@@ -415101,6 +415063,44 @@
     "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-addiesdive-ad2035-gmt-mecanism-ronda-39mm-otel-inoxidabil-316l-200m-rezistent-la-apa-884146.png",
     "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-addiesdive-ad2035-gmt-mecanism-ronda-39mm-oțel-inoxidabil-316l-200m-rezistent-la-apă.html",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=CIs9ImqWepR7&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
+    "specs": {}
+  },
+  {
+    "id": "csh-89151",
+    "source_site": "ceasuri-shop.ro",
+    "brand": "Lige",
+    "title": "Ceas Bărbați Lige 89151 Argintiu-Negru - Design Business, Funcții Multiple, Rezistent la Șocuri, Rezistent la Apă 3ATM",
+    "category": [
+      "ceasuri"
+    ],
+    "price": 149.99,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbati-lige-89151-argintiu-negru-design-business-functii-multiple-rezistent-la-socuri-rezistent-la-apa-3atm-458140.jpeg",
+    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbati-lige-89151-argintiu-negru-design-business-functii-multiple-rezistent-la-socuri-rezistent-la-apa-3atm.html",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=d3xjGQ4t0UE4&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
+    "specs": {}
+  },
+  {
+    "id": "csh-89153",
+    "source_site": "ceasuri-shop.ro",
+    "brand": "Lige",
+    "title": "Ceas Bărbați Lige 89153 Argintiu-Verde - Design Business, Funcții Multiple, Afișaj Luminos, Rezistent la Apă 3ATM",
+    "category": [
+      "ceasuri"
+    ],
+    "price": 129.99,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbati-lige-89153-argintiu-verde-design-business-functii-multiple-afisaj-luminos-rezistent-la-apa-3atm-142061.jpeg",
+    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbati-lige-89153-argintiu-verde-design-business-functii-multiple-afisaj-luminos-rezistent-la-apa-3atm.html",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=qGqrSHYkC1Nd&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
     "specs": {}
   }
 ]
