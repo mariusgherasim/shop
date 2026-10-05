@@ -92,8 +92,7 @@
     "specs": {
       "culoare": "Cognac",
       "material": "Piele naturală"
-    },
-    "recomandat": true
+    }
   },
   {
     "id": "1132",
@@ -1368,7 +1367,8 @@
       "culoare_rama": "Auriu",
       "culoare_brate": "Auriu",
       "culoare_lentila": "Gri"
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "294620",
@@ -3381,7 +3381,7 @@
       "ceasuri",
       "cadouri-pentru-ea"
     ],
-    "price": 459.99,
+    "price": 744.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -4410,7 +4410,8 @@
       "material_bratara": "Otel inoxidabil placat PVD",
       "culoare_bratara": "Auriu",
       "inchidere": "Catarama tip fluture cu butoane laterale"
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "149370",
@@ -7795,7 +7796,8 @@
       "material_bratara": "Otel inoxidabil",
       "culoare_bratara": "Argintiu",
       "inchidere": "Catarama tip fluture"
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "128078",
@@ -8582,41 +8584,6 @@
       "latime_bratara_mm": 22,
       "inchidere": "Catarama tip fluture cu butoane laterale",
       "greutate_g": 157
-    }
-  },
-  {
-    "id": "213448",
-    "source_site": "watchshop.ro",
-    "brand": "Citizen",
-    "title": "Ceas Citizen SPORT AW0100-86E Eco-Drive",
-    "category": [
-      "ceasuri",
-      "cadouri-pentru-el"
-    ],
-    "price": 862.74,
-    "old_price": 1014.99,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202111121617/213448/full/ceas-citizen-aw0100-86e-eco-drive-505163.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/citizen/sport-aw0100-86e-eco-drive/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=a57e2a12e&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {
-      "afisaj": "Analog",
-      "mecanism": "Eco-Drive",
-      "rezistenta_apa": "3 ATM",
-      "culoare_cadran": "Negru",
-      "material_geam": "Cristal mineral",
-      "material_carcasa": "Otel inoxidabil",
-      "culoare_carcasa": "Argintiu",
-      "diametru_cadran_mm": 40,
-      "grosime_carcasa_mm": 10,
-      "material_bratara": "Otel inoxidabil",
-      "culoare_bratara": "Argintiu",
-      "latime_bratara_mm": 21,
-      "inchidere": "Catarama tip fluture",
-      "greutate_g": 110
     }
   },
   {
@@ -12216,7 +12183,8 @@
       "latime_bratara_mm": 14,
       "inchidere": "Reglabil",
       "greutate_g": 40
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "244312",
@@ -14236,8 +14204,7 @@
       "material_bratara": "Otel inoxidabil",
       "culoare_bratara": "Aur roz",
       "inchidere": "Catarama tip bijuterie"
-    },
-    "recomandat": true
+    }
   },
   {
     "id": "246516",
@@ -17144,7 +17111,8 @@
       "latime_bratara_mm": 25,
       "inchidere": "Catarama tip fluture cu butoane laterale",
       "greutate_g": 166
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "247079",
@@ -17317,8 +17285,7 @@
       "culoare_bratara": "Aur roz",
       "latime_bratara_mm": 18,
       "inchidere": "Catarama tip fluture cu butoane laterale"
-    },
-    "recomandat": true
+    }
   },
   {
     "id": "199260",
@@ -19255,8 +19222,7 @@
       "latime_bratara_mm": 20,
       "inchidere": "Catarama standard",
       "greutate_g": 51
-    },
-    "recomandat": true
+    }
   },
   {
     "id": "96201",
@@ -21994,8 +21960,8 @@
       "ceasuri",
       "cadouri-pentru-el"
     ],
-    "price": 183.6,
-    "old_price": 204,
+    "price": 204,
+    "old_price": null,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -29292,8 +29258,7 @@
       "latime_bratara_mm": 20,
       "inchidere": "Catarama standard",
       "greutate_g": 80
-    },
-    "recomandat": true
+    }
   },
   {
     "id": "251013",
@@ -30308,7 +30273,8 @@
       "latime_bratara_mm": 20,
       "inchidere": "Catarama tip fluture cu butoane laterale",
       "greutate_g": 180
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "251509",
@@ -31430,7 +31396,8 @@
       "diametru_cadran_mm": 45.8,
       "material_bratara": "Otel inoxidabil",
       "culoare_bratara": "Auriu"
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "260811",
@@ -44957,8 +44924,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_201902052353/148018/full/ceas-fossil-fb-01-fs5669-323707.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/fossil/fb-01-fs5669/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=c232f9e95&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "148036",
@@ -46674,8 +46640,8 @@
     "category": [
       "ceasuri"
     ],
-    "price": 103.7,
-    "old_price": 122,
+    "price": 122,
+    "old_price": null,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -49394,7 +49360,8 @@
       "material_bratara": "Otel inoxidabil",
       "culoare_bratara": "Argintiu",
       "inchidere": "Catarama tip fluture cu butoane laterale"
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "91578",
@@ -52720,7 +52687,8 @@
       "latime_bratara_mm": 20,
       "inchidere": "Catarama standard",
       "greutate_g": 48
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "96580",
@@ -53041,7 +53009,8 @@
       "material_bratara": "Cauciuc",
       "culoare_bratara": "Roz",
       "inchidere": "Catarama standard"
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "96820",
@@ -55401,7 +55370,8 @@
       "latime_bratara_mm": 38,
       "inchidere": "Catarama standard",
       "greutate_g": 49.8
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "108896",
@@ -61359,7 +61329,8 @@
       "latime_bratara_mm": 20,
       "inchidere": "Catarama tip fluture",
       "greutate_g": 87
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "129433",
@@ -61394,7 +61365,8 @@
       "latime_bratara_mm": 18,
       "inchidere": "Catarama standard",
       "greutate_g": 40
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "129436",
@@ -62354,7 +62326,8 @@
       "culoare_bratara": "Albastru",
       "latime_bratara_mm": 8,
       "inchidere": "Catarama standard"
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "129701",
@@ -64857,8 +64830,8 @@
       "ceasuri",
       "cadouri-pentru-el"
     ],
-    "price": 108.49,
-    "old_price": 154.99,
+    "price": 179.99,
+    "old_price": null,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -69185,8 +69158,8 @@
       "ceasuri",
       "cadouri-pentru-el"
     ],
-    "price": 242.2,
-    "old_price": 346,
+    "price": 346,
+    "old_price": null,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -69368,8 +69341,7 @@
       "culoare_bratara": "Negru",
       "inchidere": "Catarama standard",
       "greutate_g": 35
-    },
-    "recomandat": true
+    }
   },
   {
     "id": "102551",
@@ -69724,25 +69696,6 @@
       "latime_bratara_mm": 21,
       "inchidere": "Catarama standard"
     }
-  },
-  {
-    "id": "122944",
-    "source_site": "watchshop.ro",
-    "brand": "Orient",
-    "title": "Ceas Orient CLASSIC AUTOMATIC FAG02001B0 Open Heart",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 1369,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_201703171432/122944/full/ceas-orient-open-heart-fag02001b0-255862.jpeg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/orient/classic-automatic-fag02001b0-open-heart/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=17a7b9f9a&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
   },
   {
     "id": "122949",
@@ -72598,7 +72551,8 @@
       "culoare_bratara": "Roz",
       "inchidere": "Catarama standard",
       "greutate_g": 21
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "248973",
@@ -76369,40 +76323,6 @@
     }
   },
   {
-    "id": "274129",
-    "source_site": "watchshop.ro",
-    "brand": "Casio",
-    "title": "Ceas Casio EDIFICE ECB-950DC-1A",
-    "category": [
-      "ceasuri",
-      "cadouri-pentru-el"
-    ],
-    "price": 1291,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/274129/full/ceas-casio-edifice-ecb-950dc-1a-680539.webp",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/casio/edifice-ecb-950dc-1a/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=9831f4aa7&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {
-      "afisaj": "Analog si Digital",
-      "mecanism": "Quartz",
-      "rezistenta_apa": "10 ATM",
-      "culoare_cadran": "Negru",
-      "material_geam": "Cristal mineral",
-      "material_carcasa": "Otel inoxidabil placat ionic",
-      "culoare_carcasa": "Negru",
-      "diametru_cadran_mm": 48,
-      "grosime_carcasa_mm": 13.9,
-      "material_bratara": "Otel inoxidabil placat ionic",
-      "culoare_bratara": "Negru",
-      "inchidere": "Catarama tip fluture",
-      "greutate_g": 163
-    }
-  },
-  {
     "id": "274199",
     "source_site": "watchshop.ro",
     "brand": "Casio",
@@ -78072,7 +77992,8 @@
       "latime_bratara_mm": 20,
       "inchidere": "Catarama standard",
       "greutate_g": 59
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "107321",
@@ -78266,8 +78187,7 @@
       "latime_bratara_mm": 21,
       "inchidere": "Catarama standard",
       "greutate_g": 65
-    },
-    "recomandat": true
+    }
   },
   {
     "id": "120481",
@@ -83125,7 +83045,7 @@
       "ceasuri"
     ],
     "price": 179.99,
-    "old_price": 199.99,
+    "old_price": null,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -83215,8 +83135,7 @@
       "culoare_bratara": "Argintiu",
       "inchidere": "Catarama tip fluture",
       "greutate_g": 115
-    },
-    "recomandat": true
+    }
   },
   {
     "id": "274987",
@@ -88967,8 +88886,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/275613/full/ceas-fossil-fossil-group-watches-mod-fs6047-684465.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/fossil/fs6047/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=0d22dfd68&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "275617",
@@ -90933,7 +90851,8 @@
       "latime_bratara_mm": 22,
       "inchidere": "Catarama tip fluture",
       "greutate_g": 140
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "250213",
@@ -91517,7 +91436,7 @@
       "ceasuri"
     ],
     "price": 818.99,
-    "old_price": 909.99,
+    "old_price": null,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -92618,7 +92537,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 1754.99,
+    "price": 1759.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -94403,7 +94322,7 @@
       "ceasuri"
     ],
     "price": 308.7,
-    "old_price": 343,
+    "old_price": null,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -95192,25 +95111,6 @@
     "specs": {}
   },
   {
-    "id": "278887",
-    "source_site": "watchshop.ro",
-    "brand": "Citizen",
-    "title": "Ceas Citizen Quartz BF0584-56E",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 675.74,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/278887/full/ceas-citizen-citizen-quartz-bf0584-56e-689881.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/citizen/quartz-bf0584-56e/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=97a8b682a&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "278911",
     "source_site": "watchshop.ro",
     "brand": "Citizen",
@@ -95398,7 +95298,8 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/279019/full/ceas-citizen-citizen-tsuyosa-nk5010-01h-690013.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/citizen/tsuyosa-nk5010-01h/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=210b67def&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "279021",
@@ -98707,7 +98608,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 819.99,
+    "price": 999.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -98887,8 +98788,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/280991/full/ceas-guess-guess-sport-gw0799g2-692003.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/guess/guess-sport-gw0799g2/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=3b35c012f&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "281015",
@@ -99135,25 +99035,6 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/281131/full/ochelari-de-soare-guess-guess-gu00085-01d-55-692143.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare/guess/guess-gu00085-01d-55/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=bc40d14a4&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "281137",
-    "source_site": "watchshop.ro",
-    "brand": "Guess",
-    "title": "Ochelari de soare Guess Guess GU00087 08B 60",
-    "category": [
-      "ochelari-de-soare"
-    ],
-    "price": 483,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/281137/full/ochelari-de-soare-guess-guess-gu00087-08b-60-692149.jpg",
-    "official_url": "https://www.watchshop.ro/ochelari-de-soare/guess/guess-gu00087-08b-60/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=7609ea366&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -101542,8 +101423,7 @@
       "latime_bratara_mm": 22,
       "inchidere": "Catarama tip fluture cu siguranta",
       "greutate_g": 60
-    },
-    "recomandat": true
+    }
   },
   {
     "id": "275903",
@@ -103335,8 +103215,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/283297/full/ceas-maserati-maserati-r8853140003-694309.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/maserati/maserati-r8853140003/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=Z_aLT6pn9OMJ&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "283313",
@@ -107802,7 +107681,8 @@
       "latime_bratara_mm": 22,
       "inchidere": "Catarama standard",
       "greutate_g": 60
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "138847",
@@ -108650,8 +108530,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/274497/full/ceas-versace-versace-greca-logo-vevi00320-681379.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/versace/greca-logo-vevi00620/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=qYX9Ino05giH&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "274829",
@@ -109038,8 +108917,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/277863/full/ceas-tommy-hilfiger-tommy-hilfiger-baker-1710451-688849.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/tommy-hilfiger/baker-1710451/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=n6d_FsE9AgrC&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "277867",
@@ -110693,7 +110571,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 1699.99,
+    "price": 1714.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -112146,7 +112024,8 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/285574/full/ochelari-de-soare-polaroid-polaroid-pld-6200-s-x-rhl-wj-61-696604.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare/polaroid/polaroid-pld-6200-s-x-rhl-wj-61/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=wcNv5D7GfmQm&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "285577",
@@ -123668,7 +123547,8 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/284626/full/ceas-guess-guess-trend-gw0601l2-695653.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/guess/guess-trend-gw0601l2/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=VZgOQjzjzvRt&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "250542",
@@ -123872,7 +123752,7 @@
       "ceasuri"
     ],
     "price": 346.49,
-    "old_price": 384.99,
+    "old_price": null,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -124182,8 +124062,7 @@
       "latime_bratara_mm": 18,
       "inchidere": "Catarama tip fluture cu butoane laterale",
       "greutate_g": 80
-    },
-    "recomandat": true
+    }
   },
   {
     "id": "136341",
@@ -125271,8 +125150,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/280075/full/ochelari-de-soare-carrera-carrera-carrera-1062-s-rzz-m9-62-691087.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare/carrera/carrera-carrera-1062-s-rzz-m9-62/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=AyFZUxHalH_6&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "276959",
@@ -128584,8 +128462,7 @@
       "culoare_bratara": "Negru",
       "latime_bratara_mm": 16,
       "inchidere": "Catarama standard"
-    },
-    "recomandat": true
+    }
   },
   {
     "id": "122437",
@@ -136135,7 +136012,8 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/294251/full/ceas-maserati-maserati-attrazione-r8853151507-706598.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/maserati/maserati-attrazione-r8853151507/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=AvId3eTz19ZP&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "294260",
@@ -137142,8 +137020,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/295127/full/ceas-versus-versace-versus-versace-aberdeen-vsplo0319-707474.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/versus-versace/versus-versace-aberdeen-vsplo0319/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=lH8HCgddwvtb&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "295130",
@@ -143282,41 +143159,6 @@
     }
   },
   {
-    "id": "251252",
-    "source_site": "watchshop.ro",
-    "brand": "Swiss Alpine Military",
-    "title": "Ceas Swiss Alpine Military Typhoon 7005.9137 Cronograf",
-    "category": [
-      "ceasuri",
-      "cadouri-pentru-el"
-    ],
-    "price": 1197,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202111121617/251252/full/ceas-swiss-alpine-military-typhoon-7005-9137-cronograf-643135.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/swiss-alpine-military/typhoon-7005-9137-cronograf/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=jmuW-ne582hq&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {
-      "afisaj": "Analog",
-      "mecanism": "Quartz",
-      "rezistenta_apa": "10 ATM",
-      "culoare_cadran": "Negru",
-      "material_geam": "Cristal mineral durificat",
-      "material_carcasa": "Otel inoxidabil",
-      "culoare_carcasa": "Argintiu",
-      "diametru_cadran_mm": 42,
-      "grosime_carcasa_mm": 12,
-      "material_bratara": "Otel inoxidabil",
-      "culoare_bratara": "Argintiu",
-      "latime_bratara_mm": 25,
-      "inchidere": "Catarama tip fluture cu butoane laterale",
-      "greutate_g": 180
-    }
-  },
-  {
     "id": "251253",
     "source_site": "watchshop.ro",
     "brand": "Swiss Alpine Military",
@@ -144284,7 +144126,8 @@
       "latime_bratara_mm": 20,
       "inchidere": "Catarama tip fluture cu butoane laterale",
       "greutate_g": 100
-    }
+    },
+    "recomandat": true
   },
   {
     "id": "251052",
@@ -145812,8 +145655,7 @@
       "culoare_bratara": "Negru",
       "latime_bratara_mm": 20,
       "inchidere": "Catarama standard"
-    },
-    "recomandat": true
+    }
   },
   {
     "id": "277877",
@@ -145882,7 +145724,7 @@
       "cadouri-pentru-el"
     ],
     "price": 939.24,
-    "old_price": 1104.99,
+    "old_price": null,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -146525,7 +146367,8 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/286883/full/ceas-casio-casio-edifice-ecb-2200rc-1a3df-697919.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/casio/casio-edifice-ecb-2200rc-1a3df/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=QO7fTu4Xnvuf&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "288536",
@@ -150598,7 +150441,8 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/296272/full/ceas-daniel-klein-daniel-klein-dk-1-14197-2-708970.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/daniel-klein/daniel-klein-dk-1-14197-2/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=oX8_6szu4Zok&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "296284",
@@ -166863,7 +166707,7 @@
     "brand": "Guess",
     "title": "Ceas Guess Guess Bejeweled GW0931L1",
     "category": [],
-    "price": 599.99,
+    "price": 899.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -168455,23 +168299,6 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/296947/full/ceas-casio-casio-timeless-mtd-140d-2avdf-709654.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/casio/casio-timeless-mtd-140d-2avdf/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=FGN8aNIJxvKQ&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "296953",
-    "source_site": "watchshop.ro",
-    "brand": "Casio",
-    "title": "Ceas Casio Casio Timeless MTP-M306D-1AVDF",
-    "category": [],
-    "price": 472.49,
-    "old_price": 524.99,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/296953/full/ceas-casio-casio-timeless-mtp-m306d-1avdf-709660.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/casio/casio-timeless-mtp-m306d-1avdf/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=tn6Sm74jXj65&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -171617,23 +171444,6 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/297805/full/ochelari-de-soare-carrera-carrera-carrera-267-s-807-wj-56-710515.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare/carrera/carrera-carrera-267-s-807-wj-56/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=Pmt_XdY2SD91&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "297817",
-    "source_site": "watchshop.ro",
-    "brand": "Carrera",
-    "title": "Ochelari de soare Carrera Carrera CARRERA 251/S 807 IR 53",
-    "category": [],
-    "price": 349,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/297817/full/ochelari-de-soare-carrera-carrera-carrera-251-s-807-ir-53-710527.jpg",
-    "official_url": "https://www.watchshop.ro/ochelari-de-soare/carrera/carrera-carrera-251-s-807-ir-53/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=U4BbBA9Fx2jw&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -175989,23 +175799,6 @@
     "specs": {}
   },
   {
-    "id": "299638",
-    "source_site": "watchshop.ro",
-    "brand": "Timex",
-    "title": "Ceas Timex Timex x Peanuts TW2W90100",
-    "category": [],
-    "price": 664.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/299638/full/ceas-timex-timex-x-peanuts-tw2w90100-712351.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/timex/timex-x-peanuts-tw2w90100/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=EcdMPpKwU843&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "299659",
     "source_site": "watchshop.ro",
     "brand": "Timex",
@@ -178743,23 +178536,6 @@
     "specs": {}
   },
   {
-    "id": "300730",
-    "source_site": "watchshop.ro",
-    "brand": "Seiko",
-    "title": "Ceas Seiko Seiko Presage SRPL64",
-    "category": [],
-    "price": 4309.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/300730/full/ceas-seiko-seiko-presage-srpl64-713446.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/seiko/seiko-presage-srpl64/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=C635nXWM_ESm&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "300739",
     "source_site": "watchshop.ro",
     "brand": "Maserati",
@@ -180885,23 +180661,6 @@
     "specs": {}
   },
   {
-    "id": "301405",
-    "source_site": "watchshop.ro",
-    "brand": "Polaroid",
-    "title": "Ochelari de soare Polaroid Polaroid PLD 4154/S/X LHF M9 55",
-    "category": [],
-    "price": 219,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/301405/full/ochelari-de-soare-polaroid-polaroid-pld-4154-s-x-lhf-m9-55-714121.jpg",
-    "official_url": "https://www.watchshop.ro/ochelari-de-soare/polaroid/polaroid-pld-4154-s-x-lhf-m9-55/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=fO9n-wQ_MGSZ&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "301408",
     "source_site": "watchshop.ro",
     "brand": "PANDORA",
@@ -182429,23 +182188,6 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/301858/full/ochelari-de-soare-polaroid-polaroid-pld-6242-s-x-807-m9-54-714571.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare/polaroid/polaroid-pld-6242-s-x-807-m9-54/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=ibbcKVzp6_gG&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "301870",
-    "source_site": "watchshop.ro",
-    "brand": "Polaroid",
-    "title": "Ochelari de soare Polaroid Polaroid PLD 6246/S 807 M9 52",
-    "category": [],
-    "price": 160,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/301870/full/ochelari-de-soare-polaroid-polaroid-pld-6246-s-807-m9-52-714583.jpg",
-    "official_url": "https://www.watchshop.ro/ochelari-de-soare/polaroid/polaroid-pld-6246-s-807-m9-52/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=3SFSJNw1CvZS&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -189494,23 +189236,6 @@
     "specs": {}
   },
   {
-    "id": "303625",
-    "source_site": "watchshop.ro",
-    "brand": "Bulova",
-    "title": "Ceas Bulova Bulova 96L324 Ladies Watch Marine Star Automatic 35mm 10ATM",
-    "category": [],
-    "price": 1274.99,
-    "old_price": 1499.99,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/303625/full/ceas-bulova-bulova-96l324-ladies-watch-marine-star-automatic-35mm-10atm-720199.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-dama/bulova/bulova-96l324-ladies-watch-marine-star-automatic-35mm-10atm/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=1X61wt2ko_li&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "303631",
     "source_site": "watchshop.ro",
     "brand": "Bulova",
@@ -189627,23 +189352,6 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/303649/full/ceas-bulova-bulova-96l338-ladies-watch-rubaiyat-30-5mm-3atm-720298.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-dama/bulova/bulova-96l338-ladies-watch-rubaiyat-30-5mm-3atm/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=3h0hA3gwSCQX&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "303655",
-    "source_site": "watchshop.ro",
-    "brand": "Bulova",
-    "title": "Ceas Bulova Bulova 96R254 Ladies Watch Rubaiyat Diamond Winter 0 25ct 30 5mm 3ATM",
-    "category": [],
-    "price": 4011.99,
-    "old_price": 4719.99,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/303655/full/ceas-bulova-bulova-96r254-ladies-watch-rubaiyat-diamond-winter-0-25ct-30-5mm-3atm-720328.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-dama/bulova/bulova-96r254-ladies-watch-rubaiyat-diamond-winter-0-25ct-30-5mm-3atm/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=LE7-hixaqTbI&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -196107,23 +195815,6 @@
     "specs": {}
   },
   {
-    "id": "305275",
-    "source_site": "watchshop.ro",
-    "brand": "Ingersoll",
-    "title": "Ceas Ingersoll Ingersoll I14501 The Ollie Automatic Mens Watch 42mm 5ATM",
-    "category": [],
-    "price": 1854.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/305275/full/ceas-ingersoll-ingersoll-i14501-the-ollie-automatic-mens-watch-42mm-5atm-727363.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/ingersoll/ingersoll-i14501-the-ollie-automatic-mens-watch-42mm-5atm/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=-AJe8lclW-cN&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "305278",
     "source_site": "watchshop.ro",
     "brand": "Ingersoll",
@@ -199745,23 +199436,6 @@
     "specs": {}
   },
   {
-    "id": "306148",
-    "source_site": "watchshop.ro",
-    "brand": "Louis XVI",
-    "title": "Ceas Louis XVI Louis XVI LXVI1019 Palais Royale Chronograph mens watch 43mm 5ATM",
-    "category": [],
-    "price": 2259.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/306148/full/ceas-louis-xvi-louis-xvi-lxvi1019-palais-royale-chronograph-mens-watch-43mm-5atm-729868.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/louis-xvi/louis-xvi-lxvi1019-palais-royale-chronograph-mens-watch-43mm-5atm/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=SE7mQvR3WxLE&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "306151",
     "source_site": "watchshop.ro",
     "brand": "Louis XVI",
@@ -200031,23 +199705,6 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/306211/full/ceas-louis-xvi-louis-xvi-lxvi1700-mens-watch-palais-royale-inked-chronograph-43mm-10atm-730336.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/louis-xvi/louis-xvi-lxvi1700-mens-watch-palais-royale-inked-chronograph-43mm-10atm/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=4-Sp72IjwtQX&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "306217",
-    "source_site": "watchshop.ro",
-    "brand": "Louis XVI",
-    "title": "Ceas Louis XVI Louis XVI LXVI1131 Mens Watch Majesté Iced Out Baguette Chronograph 43mm 5ATM",
-    "category": [],
-    "price": 3314.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/306217/full/ceas-louis-xvi-louis-xvi-lxvi1131-mens-watch-majest-iced-out-baguette-chronograph-43mm-5atm-730372.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/louis-xvi/louis-xvi-lxvi1131-mens-watch-majest-iced-out-baguette-chronograph-43mm-5atm/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=VI_dsU9uXeiU&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -204097,23 +203754,6 @@
     "specs": {}
   },
   {
-    "id": "307351",
-    "source_site": "watchshop.ro",
-    "brand": "Philipp Plein",
-    "title": "Ceas Philipp Plein Philipp Plein PWOFA0425 Ladies Watch Plein Majesty 38mm 5ATM",
-    "category": [],
-    "price": 1704.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/307351/full/ceas-philipp-plein-philipp-plein-pwofa0425-ladies-watch-plein-majesty-38mm-5atm-737284.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-dama/philipp-plein/philipp-plein-pwofa0425-ladies-watch-plein-majesty-38mm-5atm/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=dCk77C3ATzV1&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "307354",
     "source_site": "watchshop.ro",
     "brand": "Philipp Plein",
@@ -204570,23 +204210,6 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/307483/full/ceas-philipp-plein-philipp-plein-pwraa0123-high-conic-automatic-mens-watch-42mm-5atm-737902.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/philipp-plein/philipp-plein-pwraa0123-high-conic-automatic-mens-watch-42mm-5atm/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=SxUc6We8f4O0&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "307486",
-    "source_site": "watchshop.ro",
-    "brand": "Philipp Plein",
-    "title": "Ceas Philipp Plein Philipp Plein PWRAA0223 High-Conic Automatic Mens Watch 42mm 5ATM",
-    "category": [],
-    "price": 3876,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/307486/full/ceas-philipp-plein-philipp-plein-pwraa0223-high-conic-automatic-mens-watch-42mm-5atm-737914.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/philipp-plein/philipp-plein-pwraa0223-high-conic-automatic-mens-watch-42mm-5atm/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=mRZLF-gl6lV7&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -213617,23 +213240,6 @@
     "specs": {}
   },
   {
-    "id": "309190",
-    "source_site": "watchshop.ro",
-    "brand": "Versace",
-    "title": "Ceas Versace Versace VEV601423 Signature Chronograph Mens Watch 44mm 5ATM",
-    "category": [],
-    "price": 2959.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/309190/full/ceas-versace-versace-vev601423-signature-chronograph-mens-watch-44mm-5atm-745087.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/versace/versace-vev601423-signature-chronograph-mens-watch-44mm-5atm/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=xJ_w6yQ-iw96&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "309199",
     "source_site": "watchshop.ro",
     "brand": "Versace",
@@ -214073,23 +213679,6 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/309292/full/ceas-versace-versace-vepy00820-mens-watch-urban-mystique-chrono-43mm-5atm-745381.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/versace/versace-vepy00820-mens-watch-urban-mystique-chrono-43mm-5atm/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=-RZ4MDe-J6lv&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "309295",
-    "source_site": "watchshop.ro",
-    "brand": "Versace",
-    "title": "Ceas Versace Versace VE5CA0223 Mens Watch Sporty Chrono 46mm 5ATM",
-    "category": [],
-    "price": 3299.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202504020518/309295/full/ceas-versace-versace-ve5ca0223-mens-watch-sporty-chrono-46mm-5atm-745387.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/versace/versace-ve5ca0223-mens-watch-sporty-chrono-46mm-5atm/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=QobqbRI2Kovb&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -229841,7 +229430,8 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/257452/full/police-s897856s69x-653962.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-dama/police/s897856s69x/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=b5b7e6c74&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "272695",
@@ -233035,8 +232625,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202111121617/185638/full/chopard-sch156m57agqb-418360.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-barbati/chopard/sch156m57agqb/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=1624a2aaa&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "289340",
@@ -236164,8 +235753,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/256724/full/ceas-olivia-burton-ob16bd111-652942.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-dama/olivia-burton/ob16bd111/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=e59369cb6&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "255976",
@@ -237959,8 +237547,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202111121617/186555/full/italia-independent-0213-022-000-419788.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-dama/italia-independent/0213-022-000/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=6b5576040&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "192834",
@@ -241863,8 +241450,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202111121617/224303/full/web-eyewear-we0233-5033z-555983.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-dama/web-eyewear/we0233-5033z/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=0b05dfc60&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "191560",
@@ -242797,8 +242383,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/261795/full/try-cover-change-cf506-07-58-661164.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-barbati/try-cover-change/cf506-07-58/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=5e3d97451&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "289685",
@@ -246433,7 +246018,8 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/261360/full/web-eyewear-we0272-5932w-660046.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-dama/web-eyewear/we0272-5932w/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=d20215fd1&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "249350",
@@ -246813,7 +246399,8 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/261701/full/converse-cv520sriseup-660979.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-barbati/converse/cv520sriseup/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=140042c23&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "251272",
@@ -249549,8 +249136,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/261396/full/web-eyewear-we0290-6566v-660154.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-dama/web-eyewear/we0290-6566v/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=40f45d295&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "255961",
@@ -252858,8 +252444,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202111121617/188781/full/italia-independent-0902-152-000-424163.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-barbati/italia-independent/0902-152-000/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=0bdb2f455&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "256615",
@@ -253562,8 +253147,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/255805/full/ceas-iam-iam-kit05-651371.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-dama/iam/iam-kit05/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=3e9d51299&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "175397",
@@ -259957,8 +259541,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202111121617/232368/full/police-s8978_56w01x-576887.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-barbati/police/s8978_56w01x/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=65b0765f4&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "219358",
@@ -261862,8 +261445,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/262058/full/dkny-dk305s-717-661717.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-dama/dkny/dk305s-717/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=2BgSJLCD4jx9&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "269517",
@@ -262758,7 +262340,8 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202111121617/224623/full/web-eyewear-we0286-5730v-557983.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-dama/web-eyewear/we0286-5730v/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=9c96561ba&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "253478",
@@ -264052,7 +263635,8 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/256403/full/ceas-laura-biagiotti-lb0001l-ma-652425.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-dama/laura-biagiotti/lb0001l-ma/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=213ebf0c4&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "256563",
@@ -267704,7 +267288,8 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202111121617/199400/full/ceas-kenneth-cole-ikc0005-451113.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-dama/kenneth-cole/ikc0005/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=63822a0ef&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "173927",
@@ -272975,7 +272560,8 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/257438/full/police-s1960m49nk5h-653948.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-dama/police/s1960m49nk5h/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=ecb45d6eb&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "264934",
@@ -274747,8 +274333,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202111121617/197076/full/ceas-hello-kitty-hk7143l-18-443896.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-pentru-copii/hello-kitty/hk7143l-18/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=9178423b2&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "248803",
@@ -277562,8 +277147,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/273867/full/nina-ricci-snr327-590300-679663.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare/nina-ricci/snr327-590300/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=YX0rjWZg-4uR&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "196992",
@@ -281595,7 +281179,8 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202111121617/248755/full/ochelari-de-soare-barbati-adidas-aor005-144009-630287.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-barbati/adidas/aor005-144009/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=04dcad788&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "261391",
@@ -283594,7 +283179,8 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/257714/full/police-spl584-0581-654295.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-barbati/police/spl584-0581/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=3ec8iB0GUYWA&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "257719",
@@ -288173,7 +287759,7 @@
       "ceasuri"
     ],
     "price": 643.99,
-    "old_price": 804.99,
+    "old_price": null,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -290923,8 +290509,7 @@
     "image_url": "https://img-proxy.gherasimmarius75.workers.dev/?url=https://www.watchshop.ro/images/products/img_202402020518/255829/full/ceas-iam-iam-kit547-651395.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-dama/iam/iam-kit547/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=848496c8b&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "273031",
@@ -297474,7 +297059,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 1259.99,
+    "price": 1264.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -355196,8 +354781,8 @@
     "category": [
       "ceasuri"
     ],
-    "price": 1177.24,
-    "old_price": 1384.99,
+    "price": 1189.99,
+    "old_price": 1399.99,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -355433,7 +355018,8 @@
     "image_url": "https://www.watchshop.ro/images/products/img_201902052353/149691/full/ceas-casio-g-shock-ga-2100-1aer-328303.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/casio/g-shock-ga-2100-1a/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=be0440c45&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "81791",
@@ -356060,8 +355646,7 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202504020518/283309/full/ceas-maserati-maserati-r8873621008-694321.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/maserati/maserati-r8873621008/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=JtCJVQwaZm1c&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "283441",
@@ -357638,25 +357223,6 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202504020518/302239/full/pandora-pandora-moments-592790c01-s1-714952.jpg",
     "official_url": "https://www.watchshop.ro/bijuterii/pandora/pandora-moments-592790c01-s1/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=HEEJZly0fk0n&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "302632",
-    "source_site": "watchshop.ro",
-    "brand": "PANDORA",
-    "title": "PANDORA Pandora ME 599662C00-5",
-    "category": [
-      "bijuterii"
-    ],
-    "price": 411.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202504020518/302632/full/pandora-pandora-me-599662c00-5-715345.jpg",
-    "official_url": "https://www.watchshop.ro/bijuterii/pandora/pandora-me-599662c00-5/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=H1sX8f69muhE&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -360156,8 +359722,8 @@
     "category": [
       "ceasuri"
     ],
-    "price": 1321.74,
-    "old_price": 1554.99,
+    "price": 1461.99,
+    "old_price": 1719.99,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -361115,25 +360681,6 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202111121617/251527/full/ceas-wenger-avenue-01-1641-113-644681.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/wenger/avenue-01-1641-113/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=354369e6d&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "265742",
-    "source_site": "watchshop.ro",
-    "brand": "Citizen",
-    "title": "Ceas Citizen GMT NB6045-51H",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 4198.99,
-    "old_price": 4939.99,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202402020518/265742/full/ceas-citizen-citizen-nb6045-51h-gmt-667479.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/citizen/gmt-nb6045-51h/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=2952a58e6&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -362208,8 +361755,8 @@
     "category": [
       "ceasuri"
     ],
-    "price": 934.99,
-    "old_price": 1099.99,
+    "price": 1372.74,
+    "old_price": 1614.99,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -363291,7 +362838,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 2119.99,
+    "price": 2129.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -364956,25 +364503,6 @@
     "specs": {}
   },
   {
-    "id": "276307",
-    "source_site": "watchshop.ro",
-    "brand": "Festina",
-    "title": "Ceas Festina F20680/1",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 769.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202402020518/276307/full/ceas-festina-festina-watches-mod-f20680-1-686125.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/festina/f20680-1/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=B_H_r0fmAMQ3&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "280823",
     "source_site": "watchshop.ro",
     "brand": "Guess",
@@ -365637,25 +365165,6 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202111121617/248680/full/ceas-casio-mtp-v004d-1b2-629888.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/casio/enticer-mtp-v004d-1b2/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=17884f9fe&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "278975",
-    "source_site": "watchshop.ro",
-    "brand": "Citizen",
-    "title": "Ceas Citizen Automatic NJ0177-84X",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 1529.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202402020518/278975/full/ceas-citizen-citizen-automatic-nj0177-84x-689969.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/citizen/automatic-nj0177-84x/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=o9ymtYIzPxgl&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -366454,8 +365963,7 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202504020518/292988/full/ceas-daniel-klein-daniel-klein-dk-1-14221-5-705395.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/daniel-klein/daniel-klein-dk-1-14221-5/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=utDi8TCoDc6J&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "282403",
@@ -368422,7 +367930,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 2474.99,
+    "price": 2584.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -370341,7 +369849,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 1384.99,
+    "price": 1394.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -370512,7 +370020,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 474.99,
+    "price": 799.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -371528,7 +371036,8 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202402020518/278393/full/ceas-emporio-armani-emporio-armani-luigi-ar11154-689381.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/emporio-armani/luigi-ar11154/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=2b0681d2d&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "251210",
@@ -373827,8 +373336,7 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202402020518/280005/full/ochelari-de-soare-carrera-carrera-carrera-3005-s-lks-gb-63-691017.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare/carrera/carrera-carrera-3005-s-lks-gb-63/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=hZNA0pN8zcMN&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "301495",
@@ -376089,7 +375597,8 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202402020518/276475/full/ceas-festina-festina-watches-mod-f23000-4-686499.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/festina/f23000-4/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=povy8QaOd3cL&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "138612",
@@ -379341,25 +378850,6 @@
     "specs": {}
   },
   {
-    "id": "301111",
-    "source_site": "watchshop.ro",
-    "brand": "Orient",
-    "title": "Ceas Orient Orient Bambino RA-AC0032V30B",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 1438,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202504020518/301111/full/ceas-orient-orient-bambino-ra-ac0032v30b-713827.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/orient/orient-bambino-ra-ac0032v30b/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=_rjRkMaprSXn&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "255419",
     "source_site": "watchshop.ro",
     "brand": "Guess",
@@ -380659,7 +380149,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 1269.99,
+    "price": 1279.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -382131,25 +381621,6 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202402020518/275975/full/ceas-festina-festina-watches-mod-f20426-6-685367.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/festina/f20426-6/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=Gz7VpUlN2Cet&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "248302",
-    "source_site": "watchshop.ro",
-    "brand": "Guess",
-    "title": "Ceas Guess Frontier W1132G1",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 1013,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202111121617/248302/full/ceas-guess-frontier-w1132g1-628456.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/guess/frontier-w1132g1/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=05fca0471&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -384335,25 +383806,6 @@
     "image_url": "https://www.watchshop.ro/images/products/img_201902052353/150835/full/ceas-hugo-boss-integrity-1513808-cronograf-330288.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/hugo-boss/integrity-1513808-cronograf/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=ab613b01e&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "310441",
-    "source_site": "watchshop.ro",
-    "brand": "Seiko",
-    "title": "Ceas Seiko Seiko 5 Sports SRPL79",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 1779.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202504020518/310441/full/ceas-seiko-seiko-5-sports-srpl79-749716.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/seiko/seiko-5-sports-srpl79/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=H1j9FR4EKkdY&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -387131,25 +386583,6 @@
     "specs": {}
   },
   {
-    "id": "247172",
-    "source_site": "watchshop.ro",
-    "brand": "Tommy Hilfiger",
-    "title": "Bratara Tommy Hilfiger 2780326",
-    "category": [
-      "bijuterii"
-    ],
-    "price": 223,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202111121617/247172/full/tommy-hilfiger-bratara-2780326-623738.jpg",
-    "official_url": "https://www.watchshop.ro/bratari-de-dama/tommy-hilfiger/2780326/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=5zn5-TJi_n9y&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "279603",
     "source_site": "watchshop.ro",
     "brand": "Casio",
@@ -388043,25 +387476,6 @@
     "specs": {}
   },
   {
-    "id": "247165",
-    "source_site": "watchshop.ro",
-    "brand": "Tommy Hilfiger",
-    "title": "Bratara Tommy Hilfiger 2780122",
-    "category": [
-      "bijuterii"
-    ],
-    "price": 283,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202111121617/247165/full/tommy-hilfiger-bratara-2780122-623724.jpg",
-    "official_url": "https://www.watchshop.ro/bratari-de-dama/tommy-hilfiger/2780122/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=6S8ckl9yxruH&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "250161",
     "source_site": "watchshop.ro",
     "brand": "Edox",
@@ -388173,7 +387587,8 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202504020518/283855/full/ceas-citizen-citizen-mechanical-nh7531-50e-694879.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/citizen/citizen-mechanical-nh7531-50e/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=fbgqFPP-mKnp&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "286856",
@@ -388347,25 +387762,6 @@
     "specs": {}
   },
   {
-    "id": "251098",
-    "source_site": "watchshop.ro",
-    "brand": "Lorus",
-    "title": "Ceas Lorus Sports R2327PX9",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 129.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202111121617/251098/full/ceas-lorus-digital-r2327px9-642165.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/lorus/sports-r2327px9/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=HVm8t0j4ahNM&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "276335",
     "source_site": "watchshop.ro",
     "brand": "Festina",
@@ -388382,8 +387778,7 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202402020518/276335/full/ceas-festina-festina-watches-mod-f20013-1-686191.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/festina/f20013-1/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=MUMdOc-ZYate&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "129403",
@@ -388747,25 +388142,6 @@
     "specs": {}
   },
   {
-    "id": "130639",
-    "source_site": "watchshop.ro",
-    "brand": "Citizen",
-    "title": "Ceas Citizen DRESS BI5000-87E",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 484,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_201902052353/130639/full/ceas-citizen-dress-bi5000-87e-298668.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/citizen/dress-bi5000-87e/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=876a1e293&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "260780",
     "source_site": "watchshop.ro",
     "brand": "Michael Kors",
@@ -388782,25 +388158,6 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202402020518/260780/full/ceas-michael-kors-mk5166-659227.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-dama/michael-kors/mk5166/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=BREFEhH2Luyi&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "134194",
-    "source_site": "watchshop.ro",
-    "brand": "Citizen",
-    "title": "Ceas Citizen Classic BI5000-87L",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 484,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_201902052353/134194/full/ceas-citizen-classic-bi5000-87l-298534.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/citizen/classic-bi5000-87l/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=wZFD6eBJf0i9&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -389279,25 +388636,6 @@
     "specs": {}
   },
   {
-    "id": "273983",
-    "source_site": "watchshop.ro",
-    "brand": "Casio",
-    "title": "Ceas Casio Vintage CA-500WE-1AEF Edgy",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 424,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202402020518/273983/full/ceas-casio-ca-500we-1aef-679899.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/casio/vintage-ca-500we-1aef-edgy/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=ZkRFBC0YgoOu&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "140403",
     "source_site": "watchshop.ro",
     "brand": "Tissot",
@@ -389409,25 +388747,6 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202504020518/297433/full/ceas-casio-casio-timeless-mtp-b215d-7avdf-710143.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/casio/casio-timeless-mtp-b215d-7avdf/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=YGXS6ajqZDqy&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "297568",
-    "source_site": "watchshop.ro",
-    "brand": "Casio",
-    "title": "Ceas Casio Casio G-Shock GMD-S5600NC-9DR",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 404,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202504020518/297568/full/ceas-casio-casio-g-shock-gmd-s5600nc-9dr-710278.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/casio/casio-g-shock-gmd-s5600nc-9dr/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=lQGuwZ-NUYcT&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -389561,25 +388880,6 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202504020518/301039/full/ochelari-de-soare-ray-ban-ray-ban-clubmaster-rb3016-1367b1-55-713755.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare/ray-ban/ray-ban-clubmaster-rb3016-1367b1-55/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=wbEli2Tf1nF3&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "284539",
-    "source_site": "watchshop.ro",
-    "brand": "Guess",
-    "title": "Ceas Guess Guess Majestic GW0796G1",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 1024.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202504020518/284539/full/ceas-guess-guess-majestic-gw0796g1-695566.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/guess/guess-majestic-gw0796g1/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=7mC_NZzqxw5q&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -390112,25 +389412,6 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202111121617/244203/full/ceas-rosefield-the-ace-abgsg-a19-614844.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-dama/rosefield/the-ace-abgsg-a19/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=PalMUNqI7940&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "244211",
-    "source_site": "watchshop.ro",
-    "brand": "Rosefield",
-    "title": "Ceas Rosefield The Ace ASDSSG-A16",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 440,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202111121617/244211/full/ceas-rosefield-the-ace-asdssg-a16-614859.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-dama/rosefield/the-ace-asdssg-a16/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=7yLgXg7Q-wzK&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -391167,7 +390448,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 1214.99,
+    "price": 1224.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -392155,7 +391436,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 1714.99,
+    "price": 1734.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -392174,7 +391455,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 1614.99,
+    "price": 1634.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -392193,7 +391474,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 1614.99,
+    "price": 1634.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -392231,7 +391512,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 2084.99,
+    "price": 2104.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -392250,7 +391531,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 1869.99,
+    "price": 1884.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -392269,7 +391550,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 2104.99,
+    "price": 2109.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -392984,25 +392265,6 @@
     "specs": {}
   },
   {
-    "id": "296185",
-    "source_site": "watchshop.ro",
-    "brand": "Daniel Klein",
-    "title": "Ceas Daniel Klein Daniel Klein DK.1.13720-1",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 136,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202504020518/296185/full/ceas-daniel-klein-daniel-klein-dk-1-13720-1-708883.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/daniel-klein/daniel-klein-dk-1-13720-1/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=WdO81U6xvZ04&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "296188",
     "source_site": "watchshop.ro",
     "brand": "Daniel Klein",
@@ -393174,25 +392436,6 @@
     "specs": {}
   },
   {
-    "id": "298600",
-    "source_site": "watchshop.ro",
-    "brand": "Tommy Hilfiger",
-    "title": "Ceas Tommy Hilfiger Tommy Hilfiger Regatta 1720053",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 341,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202504020518/298600/full/ceas-tommy-hilfiger-tommy-hilfiger-regatta-1720053-711310.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/tommy-hilfiger/tommy-hilfiger-regatta-1720053/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=fAGGQFd9T6It&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "298777",
     "source_site": "watchshop.ro",
     "brand": "Fossil",
@@ -393250,25 +392493,6 @@
     "specs": {}
   },
   {
-    "id": "299551",
-    "source_site": "watchshop.ro",
-    "brand": "Just Cavalli",
-    "title": "Ceas Just Cavalli Just Cavalli JC1L266M0035",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 784.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202504020518/299551/full/ceas-just-cavalli-just-cavalli-jc1l266m0035-712264.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/just-cavalli/just-cavalli-jc1l266m0035/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=G7iOdduhMHaq&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "299656",
     "source_site": "watchshop.ro",
     "brand": "Timex",
@@ -393295,7 +392519,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 2404.99,
+    "price": 2419.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -393314,7 +392538,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 2824.99,
+    "price": 2839.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -393352,7 +392576,7 @@
     "category": [
       "ceasuri"
     ],
-    "price": 1394.99,
+    "price": 1409.99,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
@@ -393410,7 +392634,7 @@
       "ochelari-de-soare"
     ],
     "price": 832.49,
-    "old_price": 1109.99,
+    "old_price": null,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -393418,7 +392642,8 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202402020518/261993/full/giorgio-armani-ar6078-300613-661557.jpg",
     "official_url": "https://www.watchshop.ro/ochelari-de-soare-barbati/armani/ar6078-300613/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=bc0d998f7&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "284566",
@@ -395112,25 +394337,6 @@
     "specs": {}
   },
   {
-    "id": "101761",
-    "source_site": "watchshop.ro",
-    "brand": "Casio",
-    "title": "Ceas Casio CLASSIC MTP-V006D-1BUDF",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 174.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_20141013/101761/full/ceas-original-casio-clasic-mtp-v006d-1budf-202867.jpeg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/casio/classic-mtp-v006d-1budf/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=RxbeG95Bu9yr&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "101769",
     "source_site": "watchshop.ro",
     "brand": "Casio",
@@ -396192,7 +395398,8 @@
     "image_url": "https://www.watchshop.ro/images/products/img_201703171432/129076/full/ceas-q-q-standard-qa97j011y-274421.jpeg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-dama/q-q/standard-qa97j011y/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=73d8eace1&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
+    "specs": {},
+    "recomandat": true
   },
   {
     "id": "130068",
@@ -396762,8 +395969,7 @@
     "image_url": "https://www.watchshop.ro/images/products/img_201902052353/137029/full/ceas-citizen-bi1030-53a-301443.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/citizen/bi1030-53a-quartz/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=c056d45ee&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "137649",
@@ -398511,25 +397717,6 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202111121617/245074/full/ceas-traser-h3-p67-officer-pro-gun-107870-617772.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/traser/p67-officer-pro-gun-107870/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=v2hyZNdwnP-W&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "245095",
-    "source_site": "watchshop.ro",
-    "brand": "Traser",
-    "title": "Ceas Traser P67 Officer GunMetal 108739",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 2909.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202111121617/245095/full/ceas-traser-h3-p67-officer-gunmetal-108739-617894.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/traser/p67-officer-gunmetal-108739/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=XVc7JxlRqP34&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -400677,25 +399864,6 @@
     "image_url": "https://www.watchshop.ro/images/products/img_202402020518/278297/full/ceas-seiko-seiko-chronograph-ssb447p1-689283.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/seiko/chronograph-ssb447p1/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=vMB8DlIKxNO1&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "278333",
-    "source_site": "watchshop.ro",
-    "brand": "Casio",
-    "title": "Ceas Casio Collection WS-1700H-5AVDF",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 214,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202402020518/278333/full/ceas-casio-casio-collection-ws-1700h-5avdf-689321.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/casio/collection-ws-1700h-5avdf/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=7ac14a3ef&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -403910,25 +403078,6 @@
     "specs": {}
   },
   {
-    "id": "302134",
-    "source_site": "watchshop.ro",
-    "brand": "Polaroid",
-    "title": "Ochelari de soare Polaroid Polaroid PLD 6231/S QHO JR 55",
-    "category": [
-      "ochelari-de-soare"
-    ],
-    "price": 157.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202504020518/302134/full/ochelari-de-soare-polaroid-polaroid-pld-6231-s-qho-jr-55-714847.jpg",
-    "official_url": "https://www.watchshop.ro/ochelari-de-soare/polaroid/polaroid-pld-6231-s-qho-jr-55/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=0KlX4uEVibgO&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "302554",
     "source_site": "watchshop.ro",
     "brand": "PANDORA",
@@ -405126,25 +404275,6 @@
     "specs": {}
   },
   {
-    "id": "306478",
-    "source_site": "watchshop.ro",
-    "brand": "Luminox",
-    "title": "Ceas Luminox Luminox XS.3104 Mens Watch Pacific Diver Automatic 42mm 20ATM",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 6236,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202504020518/306478/full/ceas-luminox-luminox-xs-3104-mens-watch-pacific-diver-automatic-42mm-20atm-731869.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/luminox/luminox-xs-3104-mens-watch-pacific-diver-automatic-42mm-20atm/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=AsVMr50Wvcu4&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "306481",
     "source_site": "watchshop.ro",
     "brand": "Luminox",
@@ -406114,25 +405244,6 @@
     "specs": {}
   },
   {
-    "id": "310384",
-    "source_site": "watchshop.ro",
-    "brand": "Bulova",
-    "title": "Ceas Bulova Bulova 98B393",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 2059.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202504020518/310384/full/ceas-bulova-bulova-98b393-749659.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/bulova/bulova-98b393/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=karSaT-a6H0N&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "89119",
     "source_site": "watchshop.ro",
     "brand": "Casio",
@@ -406149,25 +405260,6 @@
     "image_url": "https://www.watchshop.ro/images/products/ws1/89119/full/ceas-casio-clasic-mtp-1370d-1a1-149560.jpeg",
     "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/casio/enticer-mtp-1370d-1a1/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=a54526650&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "127078",
-    "source_site": "watchshop.ro",
-    "brand": "Orient",
-    "title": "Ceas Orient MAKO III RA-AA0005B19B Automatic",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 1909.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_201902052353/127078/full/ceas-orient-mako-iii-ra-aa0005b19b-automatic-325330.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/orient/mako-iii-ra-aa0005b19b-automatic/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=ouQFwmdZlGys&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
     "specs": {}
   },
   {
@@ -406380,25 +405472,6 @@
     "specs": {}
   },
   {
-    "id": "275247",
-    "source_site": "watchshop.ro",
-    "brand": "Tissot",
-    "title": "Ceas Tissot CHEMIN DES TOURELLES",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 2182,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202402020518/275247/full/ceas-tissot-tissot-mod-chemin-des-tourelles-683531.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/tissot/chemin-des-tourelles/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=sjlpaBsWwzHH&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "283571",
     "source_site": "watchshop.ro",
     "brand": "Casio",
@@ -406608,44 +405681,6 @@
     "specs": {}
   },
   {
-    "id": "298549",
-    "source_site": "watchshop.ro",
-    "brand": "Tommy Hilfiger",
-    "title": "Ceas Tommy Hilfiger Tommy Hilfiger Baker 1710716",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 1009.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202504020518/298549/full/ceas-tommy-hilfiger-tommy-hilfiger-baker-1710716-711259.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/tommy-hilfiger/tommy-hilfiger-baker-1710716/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=ZBdX5B5YdVos&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
-    "id": "298606",
-    "source_site": "watchshop.ro",
-    "brand": "Diesel",
-    "title": "Ceas Diesel Diesel Mega Chief DZ4662",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 740,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202504020518/298606/full/ceas-diesel-diesel-mega-chief-dz4662-711316.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-de-mana/diesel/diesel-mega-chief-dz4662/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=UPMXxmd_LUKL&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "299350",
     "source_site": "watchshop.ro",
     "brand": "Hamilton",
@@ -406779,25 +405814,6 @@
     "specs": {}
   },
   {
-    "id": "115486",
-    "source_site": "watchshop.ro",
-    "brand": "Hugo Boss",
-    "title": "Ceas Hugo Boss SPORTS 1512963 Ikon Chronograph",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 494.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_201703171432/115486/full/ceas-hugo-boss-sports-1512963-ikon-chronograph-236334.jpeg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/hugo-boss/sports-1512963-ikon-chronograph/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=tZwy1sdiRsTu&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "115847",
     "source_site": "watchshop.ro",
     "brand": "Hugo Boss",
@@ -406855,25 +405871,6 @@
     "specs": {}
   },
   {
-    "id": "139324",
-    "source_site": "watchshop.ro",
-    "brand": "Casio",
-    "title": "Ceas Casio RETRO A700WE-1AEF",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 299.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_201902052353/139324/full/ceas-casio-retro-a700we-1aef-309766.jpg",
-    "official_url": "https://www.watchshop.ro/ceasuri-barbatesti/casio/retro-a700we-1aef/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=dd68ae357&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "147919",
     "source_site": "watchshop.ro",
     "brand": "Tommy Hilfiger",
@@ -406890,8 +405887,7 @@
     "image_url": "https://www.watchshop.ro/images/products/img_201902052353/147919/full/ceas-tommy-hilfiger-even-1710409-323200.jpg",
     "official_url": "https://www.watchshop.ro/ceasuri-de-mana/tommy-hilfiger/evan-1710409/",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=abEvNKfWhCUb&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {},
-    "recomandat": true
+    "specs": {}
   },
   {
     "id": "148140",
@@ -407692,25 +406688,6 @@
     "specs": {}
   },
   {
-    "id": "290735",
-    "source_site": "watchshop.ro",
-    "brand": "PANDORA",
-    "title": "PANDORA Pandora Moments 398821C01-50",
-    "category": [
-      "bijuterii"
-    ],
-    "price": 418.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://www.watchshop.ro/images/products/img_202504020518/290735/full/pandora-pandora-moments-398821c01-50-703145.jpg",
-    "official_url": "https://www.watchshop.ro/bijuterii/pandora/pandora-moments-398821c01-50/",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=XuHZM1Uc-X_4&aff_code=676a7e7d9&campaign_unique=2e49eab4f",
-    "specs": {}
-  },
-  {
     "id": "292562",
     "source_site": "watchshop.ro",
     "brand": "Casio",
@@ -407928,7 +406905,7 @@
       "ceasuri"
     ],
     "price": 1348.19,
-    "old_price": 1604.99,
+    "old_price": null,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -408053,25 +407030,6 @@
     "specs": {}
   },
   {
-    "id": "T801",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Tevise",
-    "title": "Ceas mecanic automatic, Tevise, Skeleton, Clasic, Otel inoxidabil",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 177.94,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/Ceas-mecanic-automatic%2C-Tevise%2C-Skeleton%2C-Clasic%2C-Otel-inoxidabil.jpg-437-9162.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceas-mecanic-automatic-tevise-skeleton-clasic-otel-inoxidabil.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=4RWLsrbo5rqP&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
     "id": "6826rose",
     "source_site": "ceasuri-shop.ro",
     "brand": "Lige",
@@ -408107,25 +407065,6 @@
     "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/Ceas-barbatesc-Business-Elegant-Cronograf-Elegant-Otel-Inoxidabil-Quartz.jpg-468-3491.jpg",
     "official_url": "https://www.ceasuri-shop.ro/ceas-barbatesc-business-elegant-cronograf-elegant-otel-inoxidabil-quartz.html",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=Ia16kJrBk2uH&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
-    "id": "1381",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Skmei",
-    "title": "Ceas de mana barbati Casual Cronograf Led Digital Otel inoxidabil",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 81.34,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/Ceas-barbatesc-Casual-Cronograf-Digital-LED-Alarma-Otel-inoxidabil-%282%29.jpg-491-6502.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceas-de-mana-barbati-casual-cronograf-led-digital-otel-inoxidabil.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=tYRA4bQZ6sDP&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
     "specs": {}
   },
   {
@@ -408756,25 +407695,6 @@
     "specs": {}
   },
   {
-    "id": "9117-2",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Naviforce",
-    "title": "Ceas barbatesc Naviforce Quartz Otel Data Analog Negru",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 147.44,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-naviforce-auriu-quartz-otel-data-analog-copie-639891.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceas-barbatesc-naviforce-quartz-otel-data-analog-negru.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=vKf-ToEVcQrz&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
     "id": "9155",
     "source_site": "ceasuri-shop.ro",
     "brand": "Naviforce",
@@ -409038,25 +407958,6 @@
     "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-benyar-elegant-quartz-cronograf-casual-piele-423004.jpg",
     "official_url": "https://www.ceasuri-shop.ro/ceas-barbatesc-benyar-elegant-quartz-cronograf-casual-piele.html",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=F4glDaqzprjs&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
-    "id": "0086669227385",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Benyar",
-    "title": "Ceas de barbati de mana Benyar Elegant Quartz Cronograf Casual Piele Maro Auriu",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 167.77,
-    "old_price": 176.92,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-de-barbati-de-mana-benyar-elegant-quartz-cronograf-casual-piele-maro-negru-copie-801769.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceas-de-barbati-de-mana-benyar-elegant-quartz-cronograf-casual-piele-maro-auriu.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=7DXKKIKM32ol&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
     "specs": {}
   },
   {
@@ -410454,8 +409355,8 @@
     "category": [
       "ceasuri"
     ],
-    "price": 101.68,
-    "old_price": null,
+    "price": 85,
+    "old_price": 101.68,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -410540,26 +409441,6 @@
     "official_url": "https://www.ceasuri-shop.ro/ceas-de-dama-hannah-martin-mecanism-quartz-japonez-casual-fashion-auriu-roze.html",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=_5uRW3eYZuKG&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
     "specs": {}
-  },
-  {
-    "id": "113G",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Hannah Martin",
-    "title": "Ceas barbatesc de mana Hannah Martin Mecanism Multifunctional Japonez Quartz Albastru",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 122.02,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-de-mana-hannah-martin-mecanism-quartz-japonez-clasic-business-negru-albastru-copie-162168.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceas-barbatesc-de-mana-hannah-martin-mecanism-multifunctional-japonez-quartz-albastru.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=CvvlyVfy6XK8&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {},
-    "recomandat": true
   },
   {
     "id": "T048-2",
@@ -410702,8 +409583,8 @@
     "category": [
       "ceasuri"
     ],
-    "price": 80.33,
-    "old_price": null,
+    "price": 65,
+    "old_price": 80.33,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -410721,8 +409602,8 @@
     "category": [
       "ceasuri"
     ],
-    "price": 86.43,
-    "old_price": null,
+    "price": 65,
+    "old_price": 86.43,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -410740,8 +409621,8 @@
     "category": [
       "ceasuri"
     ],
-    "price": 86.43,
-    "old_price": null,
+    "price": 65,
+    "old_price": 86.43,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -410759,8 +409640,8 @@
     "category": [
       "ceasuri"
     ],
-    "price": 106.76,
-    "old_price": null,
+    "price": 85,
+    "old_price": 106.76,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -410778,8 +409659,8 @@
     "category": [
       "ceasuri"
     ],
-    "price": 106.76,
-    "old_price": null,
+    "price": 85,
+    "old_price": 106.76,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -410797,8 +409678,8 @@
     "category": [
       "ceasuri"
     ],
-    "price": 106.76,
-    "old_price": null,
+    "price": 85,
+    "old_price": 106.76,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -410863,25 +409744,6 @@
     "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-de-buzunar-gorben-skeleton-mecanic-lant-vintage-clasic-copie-182443.png",
     "official_url": "https://www.ceasuri-shop.ro/ceas-de-buzunar-gorben-clasic-vintage-skeleton-mecanic-lant-auriu.html",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=3O_ScHb2lYNe&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
-    "id": "RL04",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Paulareis",
-    "title": "Ceas barbatesc de mana, Paulareis, Analog, Mecanic Automatic, Afisare ora, Data",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 273.52,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-de-mana-hannah-martin-simplu-analog-otel-quartz-japonez-copie-107850.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceas-barbatesc-de-mana-paulareis-analog-mecanic-automatic-afisare-ora-data.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=jmlFVTkr5o02&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
     "specs": {}
   },
   {
@@ -411816,25 +410678,6 @@
     "specs": {}
   },
   {
-    "id": "5206-1",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Benyar",
-    "title": "Ceas bărbătesc BENYAR BY-5206, cadran negru, cronograf quartz, luxury, curea din piele neagră, rezistent la apă 3Bar",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 199,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-benyar-by-5206-cadran-negru-cronograf-quartz-luxury-curea-din-piele-neagra-rezistent-la-apa-3bar-159876.png",
-    "official_url": "https://www.ceasuri-shop.ro/ceas-bărbătesc-benyar-by-5206-cadran-negru-cronograf-quartz-luxury-curea-din-piele-neagră-rezistent-la-apă-3bar.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=0lOwTwXUJ_gc&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
     "id": "5210",
     "source_site": "ceasuri-shop.ro",
     "brand": "Benyar",
@@ -412155,25 +410998,6 @@
     "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbati-naviforce-7114-verde-functii-multiple-design-sport-cronometru-rezistent-la-apa-5atm-715697.jpg",
     "official_url": "https://www.ceasuri-shop.ro/ceas-barbati-naviforce-7114-verde-functii-multiple-design-sport-cronometru-rezistent-la-apa-5atm.html",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=ffosZGOkt9Vk&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
-    "id": "1736",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "PAGANI DESIGN",
-    "title": "Ceas bărbătesc automat PAGANI DESIGN PD-1736, mecanism japonez NH39, 43mm, safir, curea NATO",
-    "category": [
-      "noutati"
-    ],
-    "price": 800,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-automat-pagani-design-pd-1736-mecanism-japonez-nh39-43mm-safir-curea-nato-181339.png",
-    "official_url": "https://www.ceasuri-shop.ro/ceas-bărbătesc-automat-pagani-design-pd-1736-mecanism-japonez-nh39-43mm-safir-curea-nato.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=9U4izHBqNYG4&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
     "specs": {}
   },
   {
@@ -412611,25 +411435,6 @@
     "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-dama-lige-89189-auriu-negru-design-fashion-functii-multiple-afisaj-luminos-rezistent-la-apa-3atm-527327.jpg",
     "official_url": "https://www.ceasuri-shop.ro/ceas-dama-lige-89189-auriu-negru-design-fashion-functii-multiple-afisaj-luminos-rezistent-la-apa-3atm.html",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=KBvUKuqn30s3&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
-    "id": "89184",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Lige",
-    "title": "Ceas Damă Lige 89184 Argintiu-Roz - Design Fashion, Funcții Multiple, Afișaj Luminos, Rezistent la Apă 3ATM",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 139.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-dama-lige-89184-argintiu-roz-design-fashion-functii-multiple-afisaj-luminos-rezistent-la-apa-3atm-360967.jpeg",
-    "official_url": "https://www.ceasuri-shop.ro/ceas-dama-lige-89184-argintiu-roz-design-fashion-functii-multiple-afisaj-luminos-rezistent-la-apa-3atm.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=YbR8-LoE1sAk&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
     "specs": {}
   },
   {
@@ -413466,25 +412271,6 @@
     "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/north-edge-x-trek-2-smartwatch-sport-cu-gps-precis-ecran-amoled-1-43-apel-bluetooth-monitorizare-sanatate-si-60-moduri-sport-copie-534352.png",
     "official_url": "https://www.ceasuri-shop.ro/north-edge-x-trek-2-ceas-inteligent-sport-cu-gps-multi-satelit-ecran-amoled-1-43-apeluri-prin-bluetooth-și-60-moduri-sport.html",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=zKEQzaH3uW9E&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
-    "id": "Mach-3",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "North Edge",
-    "title": "NORTH EDGE MACH - Ceas sport digital Solar-Drive, încărcare solară, rezistent la apă 50M, curea TPR+Nylon, carcasă inox",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 340,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/north-edge-mach-ceas-sport-digital-solar-drive-incarcare-solara-rezistent-la-apa-50m-curea-tpr-nylon-carcasa-inox-589148.png",
-    "official_url": "https://www.ceasuri-shop.ro/north-edge-mach-ceas-sport-digital-solar-drive-încărcare-solară-rezistent-la-apă-50m-curea-tpr-nylon-carcasă-inox.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=fAW6sKQ6piAe&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
     "specs": {}
   },
   {
@@ -415407,25 +414193,6 @@
     "specs": {}
   },
   {
-    "id": "9393",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Skmei",
-    "title": "Ceas bărbătesc elegant SKMEI 9393, quartz, curea oțel inoxidabil, rezistent la apă 30M",
-    "category": [
-      "noutati"
-    ],
-    "price": 99.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-elegant-skmei-9393-quartz-curea-otel-inoxidabil-rezistent-la-apa-30m-487303.png",
-    "official_url": "https://www.ceasuri-shop.ro/ceas-bărbătesc-elegant-skmei-9393-quartz-curea-oțel-inoxidabil-rezistent-la-apă-30m.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=yKR_jTwpCBHR&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
     "id": "2641-1",
     "source_site": "ceasuri-shop.ro",
     "brand": "Skmei",
@@ -416053,25 +414820,6 @@
     "specs": {}
   },
   {
-    "id": "2589-2",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Nibosi",
-    "title": "Ceas barbatesc de mana, Nibosi, Elegant, Fashion, Analog, Quartz, Casual, Argintiu Negru",
-    "category": [
-      "noutati"
-    ],
-    "price": 91.5,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-de-mana-nibosi-elegant-analog-quartz-casual-fashion-auriu-negru-copie-042119.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceas-barbatesc-de-mana-nibosi-elegant-fashion-analog-quartz-casual-argintiu-negru.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=mk2akqzLA7fi&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
     "id": "2454",
     "source_site": "ceasuri-shop.ro",
     "brand": "Skmei",
@@ -416373,25 +415121,6 @@
     "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-outdoor-north-edge-tharsis-busola-altimetru-barometru-termometru-carbon-50m-336852.png",
     "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/north-edge-tharsis-ceas-outdoor-busola-altimetru-barometru.html",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=vd7zl-XFSGpI&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
-    "id": "TANK",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "North Edge",
-    "title": "Ceas Digital NORTH EDGE TANK, Dual Time, Cronometru, Countdown, 50M, Negru",
-    "category": [
-      "noutati"
-    ],
-    "price": 179.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-digital-north-edge-tank-dual-time-cronometru-countdown-50m-negru-977948.png",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/north-edge-tank-ceas-digital-outdoor-cronometru-50m.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=Nro4r6RkjSrB&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
     "specs": {}
   },
   {
@@ -417231,25 +415960,6 @@
     "specs": {}
   },
   {
-    "id": "WRG805-2",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "t-winner",
-    "title": "Ceas barbatesc de mana T-Winner Clasic Vintage Mecanic Automatic Retro Casual Elegant Maro Negru",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 142.35,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-de-mana-t-winner-clasic-vintage-mecanic-automatic-retro-casual-elegant-maro-negru-793383.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbatesc-de-mana-t-winner-clasic-vintage-mecanic-automatic-retro-casual-elegant-maro-negru.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=gtj3kv05vtjX&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
     "id": "1123-2",
     "source_site": "ceasuri-shop.ro",
     "brand": "Skmei",
@@ -417266,25 +415976,6 @@
     "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-digital-barbati-skmei-1647-argintiu-afisaj-led-functii-multiple-design-irregular-cronometru-alarma-rezistent-la-apa-5atm-530440.jpg",
     "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-digital-barbati-skmei-1647-argintiu-afisaj-led-functii-multiple-design-irregular-cronometru-alarma-rezistent-la-apa-5atm.html",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=sp2c2wANsqOZ&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
-    "id": "8455-3",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Curren",
-    "title": "Ceas Bărbați CURREN 8455 Negru cu Accente Portocalii 41 mm Quartz, Brățară din Oțel Inoxidabil, Rezistent la Apă 3ATM",
-    "category": [
-      "noutati"
-    ],
-    "price": 109.99,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbati-curren-8455-negru-cu-accente-portocalii-41-mm-quartz-bratara-din-otel-inoxidabil-rezistent-la-apa-3atm-751295.png",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-bărbați-curren-8455-negru-cu-accente-portocalii-41-mm-quartz-brățară-din-oțel-inoxidabil-rezistent-la-apă-3atm.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=xaYs7bU4Mibu&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
     "specs": {}
   },
   {
@@ -417402,25 +416093,6 @@
     "specs": {}
   },
   {
-    "id": "1881-1",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Skmei",
-    "title": "Ceas barbati Skmei Quartz Digital Analogic Alarma Sport Negru Auriu",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 86.43,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbati-skmei-quartz-digital-analogic-alarma-sport-negru-auriu-760618.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbati-skmei-quartz-digital-analogic-alarma-sport-negru-auriu.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=zWpyzARey79k&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
     "id": "LG8970H",
     "source_site": "ceasuri-shop.ro",
     "brand": "Lige",
@@ -417485,8 +416157,8 @@
     "category": [
       "ceasuri"
     ],
-    "price": 96.6,
-    "old_price": null,
+    "price": 79.99,
+    "old_price": 96.6,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -418409,25 +417081,6 @@
     "specs": {}
   },
   {
-    "id": "FSL809",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Forsining",
-    "title": "Ceas barbatesc de mana Forsining Mecanic Automatic Clasic Elegant Luxury Analog Casual Business Retro Vintage Analog Negru",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 142.35,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-de-mana-forsining-mecanic-automatic-clasic-elegant-luxury-analog-casual-business-retro-vintage-analog-negru-324942.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbatesc-de-mana-forsining-mecanic-automatic-clasic-elegant-luxury-analog-casual-business-retro-vintage-analog-negru.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=liAjSHChGFA_&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
     "id": "WRG8024",
     "source_site": "ceasuri-shop.ro",
     "brand": "t-winner",
@@ -418504,25 +417157,6 @@
     "specs": {}
   },
   {
-    "id": "LG89103A",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Lige",
-    "title": "Ceas barbatesc de mana Lige Top Brand Fashion Elegant Luxury Casual Analog Quartz Negru Auriu",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 172.85,
-    "old_price": 192.18,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-dama-de-mana-lige-top-brand-luxury-casual-elegant-fashion-analog-quartz-argintiu-verde-copie-401976.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbatesc-de-mana-lige-top-brand-fashion-elegant-luxury-casual-analog-quartz-negru-auriu.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=DTMcbgFtpMni&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
     "id": "LG10045B",
     "source_site": "ceasuri-shop.ro",
     "brand": "Lige",
@@ -418596,25 +417230,6 @@
     "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-de-mana-poedagar-quartz-indici-luminosi-otel-analog-business-argintiu-albastru-copie-312629.jpg",
     "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-de-mana-poedagar-quartz-casua-otel-analog-fashion-argintiu-verde.html",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=94KY6pd7M9_F&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
-    "id": "CC36-5",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Hannah Martin",
-    "title": "Ceas de dama Hannah Martin Quartz Japonez Casual Fashion Analog Auriu",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 111.85,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-de-dama-hannah-martin-quartz-fashion-minimalist-casual-quartz-auriu-roze-275077.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-dama/ceas-de-dama-hannah-martin-quartz-japonez-casual-fashion-analog-auriu.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=dZAmAO7PQ34F&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
     "specs": {}
   },
   {
@@ -418713,44 +417328,6 @@
     "specs": {}
   },
   {
-    "id": "Laker2",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "North Edge",
-    "title": "Ceas smartwatch North Edge Laker 2 Sport Digital Control stare de sanatate Reamintire apeluri Poze",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 188.11,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-de-mana-north-edge-mach-2-solar-curea-din-nylon-cronograf-copie-421886.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/smartwatch/ceas-smartwatch-north-edge-laker-2-sport-digital-control-stare-de-sanatate-reamintire-apeluri-poze.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=XYYBJtImm9Vu&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
-    "id": "212-1",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Jaragar",
-    "title": "Ceas barbatesc de mana Jaragar Vintage Multifunctional Mecanic Automatic Otel Argintiu Negru",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 177.94,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-de-mana-jaragar-vintage-multifunctional-tourbillon-mecanic-automatic-piele-copie-026361.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbatesc-de-mana-jaragar-vintage-multifunctional-mecanic-automatic-otel-argintiu-negru.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=1d2yFLq9oftf&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
     "id": "0501",
     "source_site": "ceasuri-shop.ro",
     "brand": "Gorben",
@@ -418824,25 +417401,6 @@
     "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-de-mana-t-winner-mecanism-mecanic-automatic-skeleton-piele-negru-argintiu-copie-974884.jpg",
     "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbatesc-de-mana-t-winner-clasic-mecanism-mecanic-automatic-skeleton-piele-negru-auriu.html",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=oha9eHU5s9_f&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
-    "id": "LG9969B-1",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Lige",
-    "title": "Ceas dama de mana Lige Casual Quartz Fashion Analog Negru",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 142.35,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-dama-de-mana-lige-fashion-elegant-quartz-analog-luxury-top-brand-argintiu-copie-3092178929.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-dama/ceas-dama-de-mana-lige-casual-quartz-fashion-analog-negru.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=nY-neO2h96fP&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
     "specs": {}
   },
   {
@@ -419777,25 +418335,6 @@
     "specs": {}
   },
   {
-    "id": "5031",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Mark Fairwhale",
-    "title": "Ceas Mark Fairwhale FW-5031 pentru bărbați, mecanism quartz, cadran cu cifre arabe și design rotativ, carcasă metalică 43mm",
-    "category": [
-      "noutati"
-    ],
-    "price": 215,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-mark-fairwhale-fw-5031-pentru-barbati-mecanism-quartz-cadran-cu-cifre-arabe-si-design-rotativ-carcasa-metalica-43mm-947670.png",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-mark-fairwhale-fw-5031-pentru-bărbați-mecanism-quartz-cadran-cu-cifre-arabe-și-design-rotativ-carcasă-metalică-43mm.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=7qgqlpDtb7UW&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
     "id": "7102",
     "source_site": "ceasuri-shop.ro",
     "brand": "Naviforce",
@@ -420556,25 +419095,6 @@
     "specs": {}
   },
   {
-    "id": "9242-2",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Naviforce",
-    "title": "Ceas Bărbați Naviforce 9242 Albastru-Negru - Funcții Multiple, Afișaj LED, Rezistent la Șocuri, Rezistent la Apă 3ATM",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 149,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbati-naviforce-9242-albastru-negru-functii-multiple-afisaj-led-rezistent-la-socuri-rezistent-la-apa-3atm-172543.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbati-naviforce-9242-albastru-negru-functii-multiple-afisaj-led-rezistent-la-socuri-rezistent-la-apa-3atm.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=z3SlVr8w-UEF&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
     "id": "8057-1",
     "source_site": "ceasuri-shop.ro",
     "brand": "Naviforce",
@@ -420772,8 +419292,8 @@
     "category": [
       "ceasuri"
     ],
-    "price": 101.68,
-    "old_price": null,
+    "price": 79.99,
+    "old_price": 101.68,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
@@ -420781,44 +419301,6 @@
     "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/binbond-ceas-barbatesc-de-mana-elegant-quartz-casual-fashion-business-3-atm-piele-copie-155342.png",
     "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/binbond-ceas-barbatesc-quartz-elegant-piele-argintiu-negru.html",
     "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=8PF9UuK3ZGT3&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
-    "id": "LG89121",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Lige",
-    "title": "Ceas barbatesc, Lige, Analog, Quartz, Elegant, Casual, Business, Auriu",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 167.77,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-de-mana-addiesdive-stil-militar-army-casual-quartz-verde-copie-525503.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbatesc-lige-analog-quartz-elegant-casual-business-auriu.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=zcGwmpG_QXFC&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
-    "id": "9929-1",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "Lige",
-    "title": "Ceas barbatesc, Lige, Business, Casual, Sport, Quartz Japonez, Rezistent la socuri si zgarieturi, Otel inoxidabil",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 151.5,
-    "old_price": 161.67,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-lige-business-casual-sport-quartz-japonez-rezistent-la-socuri-si-zgarieturi-otel-inoxidabil-61-6910.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbatesc-lige-business-casual-sport-quartz-japonez-rezistent-la-socuri-si-zgarieturi-otel-inoxidabil.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=Jm-27VE2uCYS&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
     "specs": {}
   },
   {
@@ -420955,6 +419437,101 @@
     "specs": {}
   },
   {
+    "id": "AQUA",
+    "source_site": "ceasuri-shop.ro",
+    "brand": "North Edge",
+    "title": "Ceas Diving NORTH EDGE AQUA, Scuba Freedive, Busolă, Altimetru, Barometru, 100M",
+    "category": [
+      "noutati"
+    ],
+    "price": 870,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-diving-north-edge-aqua-scuba-freedive-busola-altimetru-barometru-100m-254457.png",
+    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/north-edge-aqua-ceas-diving-scuba-freedive-100m.html",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=gtg1QdgljbQj&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
+    "specs": {}
+  },
+  {
+    "id": "1231",
+    "source_site": "ceasuri-shop.ro",
+    "brand": "Skmei",
+    "title": "Ceas barbatesc Skmei, Busola, Compass, Ora Globala, 3 alarme, Cronometru, Cronometru invers",
+    "category": [
+      "ceasuri"
+    ],
+    "price": 91.51,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/Ceas-barbatesc-Skmei-1231-1.jpg-43-4280.jpg",
+    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbatesc-skmei-busola-compass-ora-globala-3-alarme-cronometru-cronometru-invers.html",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=5hCX1BFcv0E8&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
+    "specs": {}
+  },
+  {
+    "id": "2140",
+    "source_site": "ceasuri-shop.ro",
+    "brand": "Sanda",
+    "title": "Ceas barbatesc de mana Sanda Sport Digital Fashion Multifunctional Negru",
+    "category": [
+      "ceasuri"
+    ],
+    "price": 80.33,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-de-mana-sanda-stil-fashion-cronograf-digital-alarma-negru-copie-045852.jpg",
+    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbatesc-de-mana-sanda-sport-digital-fashion-multifunctional-negru.html",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=PTHc3YZ7IEEJ&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
+    "specs": {}
+  },
+  {
+    "id": "2400",
+    "source_site": "ceasuri-shop.ro",
+    "brand": "Skmei",
+    "title": "Ceas Digital Sport SKMEI 2400 pentru Bărbați - Waterproof 50M, LED, Alarmă, Verde Militar",
+    "category": [
+      "noutati"
+    ],
+    "price": 99.99,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-digital-sport-skmei-2400-pentru-barbati-waterproof-50m-led-alarma-verde-militar-447372.png",
+    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-digital-sport-skmei-2400-pentru-bărbați-waterproof-50m-led-alarmă-verde-militar.html",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=-YKnNVTH-wNa&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
+    "specs": {}
+  },
+  {
+    "id": "5567",
+    "source_site": "ceasuri-shop.ro",
+    "brand": "Olevs",
+    "title": "Ceas dama Olevs Elegant Argintiu Quartz Analog Data",
+    "category": [
+      "ceasuri"
+    ],
+    "price": 127.1,
+    "old_price": 176.92,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-dama-olevs-quartz-analog-afisare-data-elegant-business-argintiu-copie-631819.jpg",
+    "official_url": "https://www.ceasuri-shop.ro/ceasuri-dama/ceas-dama-olevs-elegant-argintiu-quartz-analog-data.html",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=c-1K_PsFBvEk&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
+    "specs": {}
+  },
+  {
     "id": "csh-89151",
     "source_site": "ceasuri-shop.ro",
     "brand": "Lige",
@@ -420993,60 +419570,79 @@
     "specs": {}
   },
   {
-    "id": "034",
+    "id": "8025-1",
     "source_site": "ceasuri-shop.ro",
-    "brand": "Jaragar",
-    "title": "Ceas barbatesc de mana Jaragar Multifunctional Tourbillon Skeleton Mecanic Automatic",
+    "brand": "Naviforce",
+    "title": "Ceas barbatesc Naviforce Sport Casual Quartz Analog Silicon Cronograf Portocaliu",
     "category": [
       "ceasuri"
     ],
-    "price": 274.54,
-    "old_price": null,
+    "price": 162.69,
+    "old_price": 177.94,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
     "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-de-mana-forsining-mecanism-mecanic-clasic-automatic-skeleton-piele-copie-271441.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbatesc-de-mana-jaragar-multifunctional-tourbillon-skeleton-mecanic-automatic.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=OVbgi_llJbYR&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
+    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-naviforce-sport-casual-quartz-analog-silicon-cronograf-data-copie-647808.jpg",
+    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbatesc-naviforce-sport-casual-quartz-analog-silicon-cronograf-portocaliu.html",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=O-TPtUtcP1e1&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
     "specs": {}
   },
   {
-    "id": "925-2",
+    "id": "6198-3",
     "source_site": "ceasuri-shop.ro",
-    "brand": "Poedagar",
-    "title": "Poedagar Ceas Casual Elegant Fashion Indici Calendar Luminosi Otel Auriu Albastru",
-    "category": [
-      "ceasuri"
-    ],
-    "price": 110.83,
-    "old_price": null,
-    "offer_end": null,
-    "currency": "RON",
-    "availability": true,
-    "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/poedagar-ceas-casual-elegant-fashion-indici-luminosi-otel-argintiu-verde-copie-749127.jpg",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/poedagar-ceas-casual-elegant-fashion-indici-calendar-luminosi-otel-auriu-albastru.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=pdFyP5_5C_kK&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
-    "specs": {}
-  },
-  {
-    "id": "AQUA",
-    "source_site": "ceasuri-shop.ro",
-    "brand": "North Edge",
-    "title": "Ceas Diving NORTH EDGE AQUA, Scuba Freedive, Busolă, Altimetru, Barometru, 100M",
+    "brand": "Sanda",
+    "title": "Ceas barbatesc de mana Sanda Multifunctional Stil Militar Army Sport Fashion Portocaliu",
     "category": [
       "noutati"
     ],
-    "price": 870,
+    "price": 100.66,
     "old_price": null,
     "offer_end": null,
     "currency": "RON",
     "availability": true,
     "draft": false,
-    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-diving-north-edge-aqua-scuba-freedive-busola-altimetru-barometru-100m-254457.png",
-    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/north-edge-aqua-ceas-diving-scuba-freedive-100m.html",
-    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=gtg1QdgljbQj&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
+    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-de-mana-sanda-stil-militar-army-sport-fashion-multifunctional-verde-copie-921136.jpg",
+    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbatesc-de-mana-sanda-multifunctional-stil-militar-army-sport-fashion-portocaliu.html",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=P2GRVvC1UV2r&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
+    "specs": {}
+  },
+  {
+    "id": "S8029-1",
+    "source_site": "ceasuri-shop.ro",
+    "brand": "Stryve",
+    "title": "Ceas barbatesc Stryve Army Militar Sport Alarma Cronometru Digital 5 ATM Sport Albastru",
+    "category": [
+      "ceasuri"
+    ],
+    "price": 121,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbatesc-de-mana-stryve-army-militar-alarma-cronometru-digital-5-atm-sport-galben-copie-522145.jpg",
+    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbatesc-stryve-army-militar-sport-alarma-cronometru-digital-5-atm-sport-albastru.html",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=ZuLKFGtVPI6T&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
+    "specs": {}
+  },
+  {
+    "id": "034-2",
+    "source_site": "ceasuri-shop.ro",
+    "brand": "Jaragar",
+    "title": "Ceas Bărbați Jaragar 034 Argintiu Mecanic - Design Luxury, Funcții Multiple, Afișaj Săptămânal, Rezistent la Apă 3ATM",
+    "category": [
+      "ceasuri"
+    ],
+    "price": 299.99,
+    "old_price": null,
+    "offer_end": null,
+    "currency": "RON",
+    "availability": true,
+    "draft": false,
+    "image_url": "https://gomagcdn.ro/domains/ceasuri-shop.ro/files/product/original/ceas-barbati-jaragar-034-argintiu-mecanic-design-luxury-functii-multiple-afisaj-saptamanal-rezistent-la-apa-3atm-318150.jpg",
+    "official_url": "https://www.ceasuri-shop.ro/ceasuri-barbatesti/ceas-barbati-jaragar-034-argintiu-mecanic-design-luxury-functii-multiple-afisaj-saptamanal-rezistent-la-apa-3atm.html",
+    "affiliate_url": "https://event.2performant.com/events/click?ad_type=product_store&unique=XoS8GlseI-KQ&aff_code=676a7e7d9&campaign_unique=ee2808fd9",
     "specs": {}
   }
 ]
